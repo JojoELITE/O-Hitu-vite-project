@@ -50,7 +50,7 @@ function Home() {
                     </h6>
                 </div>
 
-                <div className="flex items-center gap-8">
+                <div className="flex items-center">
 
                     <div className="py-10 flex">
                         <Button className=" w-[426.04px] h-[80px] border-2 text-[16px] gap-4" variant="online">
@@ -64,7 +64,10 @@ function Home() {
                         </Button>
                     </div>
 
+
+                    <Button variant="online">
                         <img className="h-[90px] mt-4" src="assets/Search.png" alt="logo"/>
+                    </Button>
 
                 </div>
 
@@ -81,14 +84,97 @@ function Home() {
 
             <div>
 
-                <div className="w-[520px] h-[500px] bg-white"> 
-                    <h2 className="text-[#4B4B61] text-center py-10 text-[24px]">Filtrez: Les mieux notés</h2>
+                <div className="h-[560px] bg-white rounded-b-lg shadow-lg"> 
+                    <h2 className="text-[#4B4B61] text-center py-10 text-[20px]">Filtrez: Les mieux notés</h2>
+
+                    <div className="flex gap-4 items-center border-b-2 border-black">
+                        <Button className="w-[120px] h-[48px] font-bold text-xl rounded" variant="">Hopitaux</Button>
+                        <Button className="w-[120px] h-[48px] font-bold text-xl rounded" variant="online">Cliniques</Button>
+                        <Button className="w-[120px] h-[48px] font-bold text-xl rounded ml-4" variant="online">Pharmacies</Button>
+                        <Button className="w-[100px] h-[48px] font-bold text-xl rounded" variant="online">Pmi</Button>
+                        <Button className="h-[48px] font-bold text-xl rounded" variant="online">
+                            <img className="h-6" src="assets/ph_caret-up-bold.png" alt="logo"/>
+                        </Button>
+                    </div>
+
+
+
+
+                    <div className="py-6 px-3 flex justify-between border-b-2 border">
+                        <div className="">
+                            <h1 className="font-bold text-2xl">CHUL</h1>
+                            <h6 className="text-[#585858] text-[16px]">Centre Hospitalier Universitaire de Libreville</h6>
+                        </div>
+
+                        <div className="flex mr-3 gap-4">
+                            <img className="h-5 mt-2" src="assets/Vector.png" alt="logo"/>
+                            <h1 className="font-bold text-2xl">4,5</h1>
+                            <img className="h-6" src="assets/ph_star-fill.png" alt="logo"/>
+
+                        </div>
+
+                    </div>
+
+
+                    <div className="py-4 px-3 flex justify-between border-b-2 border">
+                        <div className="">
+                            <h1 className="font-bold text-2xl">CHUO</h1>
+                            <h6 className="text-[#585858] text-[16px]">Centre Hospitalier Universitaire d’Owendo</h6>
+                        </div>
+
+                        <div className="flex mr-3 gap-4">
+                            <img className="h-5 mt-2" src="assets/Vector.png" alt="logo"/>
+                            <h1 className="font-bold text-2xl">4,5</h1>
+                            <img className="h-6" src="assets/ph_star-fill.png" alt="logo"/>
+
+                        </div>
+
+                    </div>
+
+
+                    <div className="py-4 px-3 flex justify-between border-b-2 border">
+                        <div className="">
+                            <h1 className="font-bold text-2xl">CHUA</h1>
+                            <h6 className="text-[#585858] text-[16px]">Centre Hospitalier Universitaire d’Akanda</h6>
+                        </div>
+
+                        <div className="flex mr-3 gap-4">
+                            <img className="h-5 mt-2" src="assets/Vector Rouge.png" alt="logo"/>
+                            <h1 className="font-bold text-2xl">2,5</h1>
+                            <img className="h-6" src="assets/ph_star-fill.png" alt="logo"/>
+
+                        </div>
+
+                    </div>
+
+
+                    <div className="py-4 px-3 flex justify-between">
+                        <div className="">
+                            <h1 className="font-bold text-2xl">NTENGUE</h1>
+                            <h6 className="text-[#585858] text-[16px]">Hôpital Régional de Ntengue</h6>
+                        </div>
+
+                        <div className="flex mr-3 gap-4">
+                            <img className="h-5 mt-2 mr-4" src="assets/Vector Rouge.png" alt="logo"/>
+                            <h1 className="font-bold text-2xl">1</h1>
+                            <img className="h-6" src="assets/ph_star-fill.png" alt="logo"/>
+
+                        </div>
+
+                    </div>
+                    
+
+
 
                 </div>
 
-                <a className="" href="#">
-                    <span className="text-[#DB4C4C] px-44">Afficher plus de structure </span>
-                </a>
+                <div className="py-4">
+
+                    <a className="" href="#">
+                        <span className="text-[#DB4C4C] px-44 text-[20px] underline">Afficher plus de structure</span>
+                    </a>
+
+                </div>
 
             </div>
 
