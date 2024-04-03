@@ -9,14 +9,14 @@ function Home() {
 
         <nav className="items-center py-12  bg-[#F2FAFC] flex justify-between">
 
-            <div className="px-8">
+            <div className="px-6">
 
                 <img className="h-14" src="assets/Group_9__5_-removebg-preview 1.png" alt="logo"/>
 
             </div>
 
 
-            <div className="flex items-center">
+            <div className="flex items-center px-6">
 
                 <div className="">
                     <Button className="text-[16px]" variant="online">
