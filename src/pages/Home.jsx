@@ -8,7 +8,7 @@ function Home() {
     <div className="">
 
 
-        <nav className="flex items-center py-4 lg:py-4 px-10 lg:px-28  bg-[#F2FAFC]">
+        <nav className="flex items-center gap-4 lg:gap-0 py-4 lg:py-4 px-8  lg:px-28  bg-[#F2FAFC]">
 
             <div className="items-center ">
 
