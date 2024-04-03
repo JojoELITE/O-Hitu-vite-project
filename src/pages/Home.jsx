@@ -167,10 +167,10 @@ function Home() {
                             <h6 className="text-[#585858] text-[10px]">Hôpital Régional de Ntengue</h6>
                         </div>
 
-                        <div className="flex mr-3 gap-4 itmes-center mt-8">
-                            <img className="h-2.5 mt-2 mr-4" src="assets/Vector Rouge.png" alt="logo"/>
+                        <div className="flex mr-3 gap-4 itmes-center mt-5">
+                            <img className="h-2.5 mr-4 mt-2" src="assets/Vector Rouge.png" alt="logo"/>
                             <h1 className="font-bold text-xl">1</h1>
-                            <img className="h-3" src="assets/ph_star-fill.png" alt="logo"/>
+                            <img className="h-3 mt-2" src="assets/ph_star-fill.png" alt="logo"/>
                         </div>
 
                     </div>
