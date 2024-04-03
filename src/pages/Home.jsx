@@ -22,7 +22,7 @@ function Home() {
                     <img className="h-[40px] lg:h-[66px] mt-2 ml-10 lg:ml-0" src="assets/Search.png" alt="logo"/>
 
                     <div>
-                        <span className="mb-4 hidden lg:block">Rechercher une structure sanitaire</span>
+                        <span className="mb-4 hidden lg:block text-[#BDBDBD]">Rechercher une structure sanitaire</span>
                     </div>
                 </Button>
             </div>
@@ -77,17 +77,23 @@ function Home() {
                     </h6>
                 </div>
 
+
+
+
+
+
+
                 <div className="flex items-center">
 
                     <div className="py-10 flex">
-                        <Button className=" w-[426.04px] h-[80px] border-2 text-[16px] gap-4" variant="online">
-                            <img className="h-[66px]" src="assets/material-symbols-light_search.png" alt="logo"/>
-                            <span className="mr-32 mb-4">Rechercher une structure</span>
+                        <Button className=" w-[300px] lg:w-[426.04px] lg:h-[80px] border-2 text-[16px] gap-4 sm:bg-white" variant="online">
+                            <img className="lg:h-[66px]" src="assets/material-symbols-light_search.png" alt="logo"/>
+                            <span className="mr-10 lg:mr-32 lg:mb-4 text-[#BDBDBD]">Rechercher une structure</span>
                         </Button>
                         
-                        <Button className=" w-[222.28px] h-[80px] border-2 text-[16px]" variant="online">
-                            <span className="mr-14 mb-4">Localisation</span>
-                            <img className="h-[44px]" src="assets/fluent_location-20-regular.png" alt="logo"/>
+                        <Button className=" w-[300px] lg:w-[426.04px] lg:h-[80px] border-2 text-[16px] gap-4 mt-1 lg:mt-0 sm:bg-white" variant="online">
+                            <span className=" mr-32 lg:mr-14 lg:mb-4 text-[#BDBDBD]">Localisation</span>
+                            <img className="lg:h-[44px]" src="assets/fluent_location-20-regular.png" alt="logo"/>
                         </Button>
                     </div>
 
@@ -97,6 +103,12 @@ function Home() {
                     </Button>
 
                 </div>
+
+
+
+
+
+
 
 
                 <div className="flex gap-4 ">
