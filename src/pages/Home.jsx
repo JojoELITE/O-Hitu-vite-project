@@ -100,13 +100,13 @@ function Home() {
             <div className="mt-10">
 
                 <div className="h-[560px] bg-white rounded-b-lg shadow-lg"> 
-                    <h2 className="text-[#4B4B61] text-center py-6 text-[20px]">Filtrez: Les mieux notés</h2>
+                    <h2 className="text-[#4B4B61] text-center py-6 text-[20px]">Les mieux notés</h2>
 
                     <div className="flex items-center border-b-2 border-black">
-                        <Button className="w-[100px] h-[48px] font-bold text-xl rounded" variant="">Hopitaux</Button>
-                        <Button className="w-[100px] h-[48px] font-bold text-xl rounded" variant="online">Cliniques</Button>
-                        <Button className="w-[100px] h-[48px] font-bold text-xl rounded ml-4" variant="online">Pharmacies</Button>
-                        <Button className="w-[100px] h-[48px] font-bold text-xl rounded" variant="online">Pmi</Button>
+                        <Button className="w-[80px] h-[48px] font-bold text-[10px] rounded" variant="">Hopitaux</Button>
+                        <Button className="w-[80px] h-[48px] font-bold text-[10px] rounded" variant="online">Cliniques</Button>
+                        <Button className="w-[80px] h-[48px] font-bold text-[10px] rounded ml-4" variant="online">Pharmacies</Button>
+                        <Button className="w-[80px] h-[48px] font-bold text-[10px] rounded" variant="online">Pmi</Button>
                       
                     </div>
 
@@ -115,14 +115,14 @@ function Home() {
 
                     <div className="py-6 px-3 flex justify-between border-b-2 border">
                         <div className="">
-                            <h1 className="font-bold text-2xl">CHUL</h1>
-                            <h6 className="text-[#585858] text-[16px]">Centre Hospitalier Universitaire de Libreville</h6>
+                            <h1 className="font-bold text-xl">CHUL</h1>
+                            <h6 className="text-[#585858] text-[10px]">Centre Hospitalier Universitaire de Libreville</h6>
                         </div>
 
                         <div className="flex mr-3 items-center gap-4">
-                            <img className="h-5 " src="assets/Vector.png" alt="logo"/>
-                            <h1 className="font-bold text-2xl">4,5</h1>
-                            <img className="h-6" src="assets/ph_star-fill.png" alt="logo"/>
+                            <img className="h-2.5 " src="assets/Vector.png" alt="logo"/>
+                            <h1 className="font-bold text-xl">4,5</h1>
+                            <img className="h-3" src="assets/ph_star-fill.png" alt="logo"/>
 
                         </div>
 
@@ -131,14 +131,14 @@ function Home() {
 
                     <div className="py-4 px-3 flex justify-between border-b-2 border">
                         <div className="">
-                            <h1 className="font-bold text-2xl">CHUO</h1>
-                            <h6 className="text-[#585858] text-[16px]">Centre Hospitalier Universitaire d’Owendo</h6>
+                            <h1 className="font-bold text-xl">CHUO</h1>
+                            <h6 className="text-[#585858] text-[10px]">Centre Hospitalier Universitaire d’Owendo</h6>
                         </div>
 
                         <div className="flex mr-3 items-center  gap-4">
-                            <img className="h-5 " src="assets/Vector.png" alt="logo"/>
-                            <h1 className="font-bold text-2xl">4,5</h1>
-                            <img className="h-6" src="assets/ph_star-fill.png" alt="logo"/>
+                            <img className="h-2.5 " src="assets/Vector.png" alt="logo"/>
+                            <h1 className="font-bold text-xl">4,5</h1>
+                            <img className="h-3" src="assets/ph_star-fill.png" alt="logo"/>
 
                         </div>
 
@@ -147,14 +147,14 @@ function Home() {
 
                     <div className="py-4 px-3 flex justify-between border-b-2 border">
                         <div className="">
-                            <h1 className="font-bold text-2xl">CHUA</h1>
-                            <h6 className="text-[#585858] text-[16px]">Centre Hospitalier Universitaire d’Akanda</h6>
+                            <h1 className="font-bold text-xl">CHUA</h1>
+                            <h6 className="text-[#585858] text-[10px]">Centre Hospitalier Universitaire d’Akanda</h6>
                         </div>
 
                         <div className="flex mr-3 items-center mt-5 gap-4">
-                            <img className="h-5 " src="assets/Vector Rouge.png" alt="logo"/>
-                            <h1 className="font-bold text-2xl">2,5</h1>
-                            <img className="h-6" src="assets/ph_star-fill.png" alt="logo"/>
+                            <img className="h-2.5 " src="assets/Vector Rouge.png" alt="logo"/>
+                            <h1 className="font-bold text-xl">2,5</h1>
+                            <img className="h-3" src="assets/ph_star-fill.png" alt="logo"/>
 
                         </div>
 
@@ -163,14 +163,14 @@ function Home() {
 
                     <div className="py-4 px-3 flex justify-between">
                         <div className="">
-                            <h1 className="font-bold text-2xl">NTENGUE</h1>
-                            <h6 className="text-[#585858] text-[16px]">Hôpital Régional de Ntengue</h6>
+                            <h1 className="font-bold text-xl">NTENGUE</h1>
+                            <h6 className="text-[#585858] text-[10px]">Hôpital Régional de Ntengue</h6>
                         </div>
 
                         <div className="flex mr-3 gap-4 itmes-center mt-8">
-                            <img className="h-5 mt-2 mr-4" src="assets/Vector Rouge.png" alt="logo"/>
-                            <h1 className="font-bold text-2xl">1</h1>
-                            <img className="h-6" src="assets/ph_star-fill.png" alt="logo"/>
+                            <img className="h-2.5 mt-2 mr-4" src="assets/Vector Rouge.png" alt="logo"/>
+                            <h1 className="font-bold text-xl">1</h1>
+                            <img className="h-3" src="assets/ph_star-fill.png" alt="logo"/>
                         </div>
 
 
