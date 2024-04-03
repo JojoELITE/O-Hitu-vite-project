@@ -99,7 +99,7 @@ function Home() {
 
             <div className="mt-10">
 
-                <div className="h-[400px] bg-white rounded-b-lg shadow-lg"> 
+                <div className="h-[430px] bg-white rounded-b-lg shadow-lg"> 
                     <h2 className="text-[#4B4B61] text-center py-6 text-[20px]">Les mieux notés</h2>
 
                     <div className="flex items-center border-b-2 border-black">
@@ -181,7 +181,7 @@ function Home() {
                 <div className="mt-3">
 
                     <a className="" href="#">
-                        <span className="text-[#DB4C4C] px-4 text-[20px] underline">Afficher plus de structure</span>
+                        <span className="text-[#DB4C4C] px-8 text-[16px] underline">Afficher plus de structure</span>
                     </a>
 
                 </div>
