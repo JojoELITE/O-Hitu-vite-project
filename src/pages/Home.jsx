@@ -64,12 +64,12 @@ function Home() {
                     <div className="">
                         <Button className=" w-[300px] h-[px] border-2 text-[16px] gap-4 bg-white" variant="online">
                             <img className="" src="assets/material-symbols-light_search.png" alt="logo"/>
-                            <span className="mr-10 mb-4">Rechercher une structure</span>
+                            <span className="mr-10 text-[#BDBDBD]">Rechercher une structure</span>
                         </Button>
                         
                         <Button className=" w-[300px] h-[px] border-2 text-[16px] gap-4 mt-1 bg-white" variant="online">
                             <img className="" src="assets/fluent_location-20-regular.png" alt="logo"/>
-                            <span className="mr-32 mb-4">Localisation</span>
+                            <span className="mr-32 text-[#BDBDBD]">Localisation</span>
                         </Button>
 
                         <Button className=" w-[300px] h-[px] border-2 text-[10px] gap-4 bg-black mt-1" variant="online">
@@ -191,10 +191,6 @@ function Home() {
 
         <div className=" bg-[#F2FAFC] h-20"></div>
 
-        <div></div>
-        <div></div>
-       
-        <div></div>
 
 
 
