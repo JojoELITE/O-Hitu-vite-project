@@ -40,7 +40,7 @@ function Home() {
 
 
 
-        <nav className="flex justify-between items-center py-12 px-28 bg-[#F2FAFC] lg:flex sm:hidden">
+        <nav className="flex justify-between items-center py-12 px-28 bg-[#F2FAFC] lg:flex hidden">
 
             <div className="flex gap-14 items-center">
 
@@ -67,13 +67,6 @@ function Home() {
             </div>
 
         </nav>
-
-
-<div></div>
-<div></div>
-<div></div>
-<div></div>
-<div></div>
 
 
 
