@@ -103,17 +103,17 @@ function Home() {
                     <h2 className="text-[#4B4B61] text-center py-6 text-[20px]">Les mieux notés</h2>
 
                     <div className="flex items-center border-b-2 border-black">
-                        <Button className="w-[80px] h-[48px] font-bold text-[10px] rounded" variant="">Hopitaux</Button>
-                        <Button className="w-[80px] h-[48px] font-bold text-[10px] rounded" variant="online">Cliniques</Button>
-                        <Button className="w-[80px] h-[48px] font-bold text-[10px] rounded ml-4" variant="online">Pharmacies</Button>
-                        <Button className="w-[80px] h-[48px] font-bold text-[10px] rounded" variant="online">Pmi</Button>
+                        <Button className="w-[80px] h-[48px] font-bold text-[12px] rounded" variant="">Hopitaux</Button>
+                        <Button className="w-[80px] h-[48px] font-bold text-[12px] rounded" variant="online">Cliniques</Button>
+                        <Button className="w-[80px] h-[48px] font-bold text-[12px] rounded ml-4" variant="online">Pharmacies</Button>
+                        <Button className="w-[80px] h-[48px] font-bold text-[12px] rounded" variant="online">Pmi</Button>
                       
                     </div>
 
 
 
 
-                    <div className="py-6 px-3 flex justify-between border-b-2 border">
+                    <div className="py-2 px-3 flex justify-between border-b-2 border">
                         <div className="">
                             <h1 className="font-bold text-xl">CHUL</h1>
                             <h6 className="text-[#585858] text-[10px]">Centre Hospitalier Universitaire de Libreville</h6>
@@ -129,7 +129,7 @@ function Home() {
                     </div>
 
 
-                    <div className="py-4 px-3 flex justify-between border-b-2 border">
+                    <div className="py-2 px-3 flex justify-between border-b-2 border">
                         <div className="">
                             <h1 className="font-bold text-xl">CHUO</h1>
                             <h6 className="text-[#585858] text-[10px]">Centre Hospitalier Universitaire d’Owendo</h6>
@@ -145,7 +145,7 @@ function Home() {
                     </div>
 
 
-                    <div className="py-4 px-3 flex justify-between border-b-2 border">
+                    <div className="py-2 px-3 flex justify-between border-b-2 border">
                         <div className="">
                             <h1 className="font-bold text-xl">CHUA</h1>
                             <h6 className="text-[#585858] text-[10px]">Centre Hospitalier Universitaire d’Akanda</h6>
@@ -161,7 +161,7 @@ function Home() {
                     </div>
 
 
-                    <div className="py-4 px-3 flex justify-between">
+                    <div className="py-2 px-3 flex justify-between">
                         <div className="">
                             <h1 className="font-bold text-xl">NTENGUE</h1>
                             <h6 className="text-[#585858] text-[10px]">Hôpital Régional de Ntengue</h6>
@@ -178,7 +178,7 @@ function Home() {
                     
 
                 </div>
-                <div className="h-8 bg-white"></div>
+                <div className="h-2 bg-white"></div>
 
                 <div className="mt-3">
 
