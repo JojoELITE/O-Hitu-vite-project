@@ -181,7 +181,7 @@ function Home() {
                 <div className="mt-3">
 
                     <a className="" href="#">
-                        <span className="text-[#DB4C4C] px-8 text-[16px] underline">Afficher plus de structure</span>
+                        <span className="text-[#DB4C4C] px-16 text-[16px] underline">Afficher plus de structure</span>
                     </a>
 
                 </div>
@@ -195,10 +195,7 @@ function Home() {
         <div></div>
         <div></div>
         <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
+       
         <div></div>
 
 
