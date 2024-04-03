@@ -71,20 +71,28 @@ function Home() {
 
 
 
-        <div className=" px-8 bg-[#F2FAFC]">
+        <div className=" px-8 bg-[#F2FAFC] lg:flex justify-between">
 
             <div>
 
-                <div className="text-[30px]">
+                <div className="lg:ext-[54.8px] sm:text-[30px]">
                     <h1>Notez et choisissez <br/> votre structure sanitaire</h1>
                 </div>
 
 
-                <div className="py-2 text-[12px]">
+                <div className="py-2 text-[12px] lg:hidden">
                     <h6 >
                         Et si vous aviez le pouvoir de choisir le meilleur <br/>établissement de santé pour votre santé ?
                         <br/><span className="font-bold">O’Hitu</span> vous aide à faire votre choix en rassemblant les avis des patients et la note général
                         <br/>de Connexions 4.0.  
+                    </h6>
+                </div>
+
+                <div className="py-2">
+                    <h6 >
+                        Et si vous aviez le pouvoir de choisir le meilleur établissement de santé pour votre santé ? <br/>
+                            <span className="font-bold">O’Hitu</span> vous aide à faire votre choix en rassemblant les avis des patients et la note général<br/>
+                        de Connexions 4.0.  
                     </h6>
                 </div>
 
