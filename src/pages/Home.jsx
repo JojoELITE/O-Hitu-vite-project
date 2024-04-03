@@ -187,7 +187,7 @@ function Home() {
                 <div className="mt-3">
 
                     <a className="" href="#">
-                        <span className="text-[#DB4C4C] px-20 text-[20px] underline">Afficher plus de structure</span>
+                        <span className="text-[#DB4C4C] px- text-[20px] underline">Afficher plus de structure</span>
                     </a>
 
                 </div>
@@ -196,6 +196,40 @@ function Home() {
         </div>
 
         <div className=" bg-[#F2FAFC] h-20"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
         <div className="py-16 bg-[#F6F8FB] hidden lg:block">
