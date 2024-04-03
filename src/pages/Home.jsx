@@ -17,9 +17,9 @@ function Home() {
             </div>
 
 
-            <div className="ml-6 lg:ml-8">
+            <div className="ml-20 lg:ml-8">
                 <Button className="text-[16px] gap-4 flex" variant="online">
-                    <img className="h-[40px] lg:h-[66px] mt-2" src="assets/Search.png" alt="logo"/>
+                    <img className="h-[48px] lg:h-[66px] mt-2" src="assets/Search.png" alt="logo"/>
 
                     <div>
                         <span className="mb-4 hidden lg:block">Rechercher une structure sanitaire</span>
@@ -28,7 +28,7 @@ function Home() {
             </div>
 
 
-            <div className="ml-0 lg:ml-[900px]"> 
+            <div className="ml- lg:ml-[900px]"> 
                 <Button className="gap-2 lg:gap-4 w-[100px] lg:w-[189px] h-[30px] lg:h-[50px]" variant="">            
                     <img className="sm:h-18" src="assets/ph_star-fill.png" alt="logo"/>
                     <span className="text-[8px] lg:text-[12px]"> LAISSER UN AVIS</span>
