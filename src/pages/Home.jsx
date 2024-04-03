@@ -8,16 +8,16 @@ function Home() {
     <div className="">
 
             
-        <nav className="items-center sm:py-4 sm:px-0 lg:py-12 lg:px-28 bg-[#F2FAFC] flex justify-between">
+        <nav className="items-center py-4 bg-[#F2FAFC] flex justify-between lg:hidden">
 
-            <div className="px-6 lg:hidden">
+            <div className="px-6">
 
                 <img className="h-14" src="assets/Group_9__5_-removebg-preview 1.png" alt="logo"/>
 
             </div>
 
 
-            <div className="flex items-center px-6 lg:hidden">
+            <div className="flex items-center px-6">
 
                 <div className="">
                     <Button className="text-[16px]" variant="online">
@@ -35,9 +35,14 @@ function Home() {
                 </div>
             </div>
 
+        </nav>
 
 
-            <div className="flex gap-14 items-center lg:flex sm:hidden">
+
+
+        <nav className="flex justify-between items-center py-12 px-28 bg-[#F2FAFC] lg:flex sm:hidden">
+
+            <div className="flex gap-14 items-center">
 
                 <img src="assets/Group_9__5_-removebg-preview 1.png" alt="logo"/>
 
@@ -54,15 +59,15 @@ function Home() {
             </div>
 
 
-            <div className="lg:block sm:hidden"> 
+            <div className=""> 
                 <Button className="gap-4 w-[189px] h-[50px]" variant="">            
                     <img src="assets/ph_star-fill.png" alt="logo"/>
                     <span className="text-[12px]"> LAISSER UN AVIS</span>
                 </Button>
             </div>
 
-
         </nav>
+
 
 
 
@@ -215,7 +220,7 @@ function Home() {
             </div>
         </div>
 
-        <div className=" bg-[#F2FAFC] h-20 sm:block md:block lg:hidden"></div>
+    <div className=" bg-[#F2FAFC] h-20 sm:block md:block lg:hidden"></div>
 
 
 
