@@ -20,16 +20,16 @@ function Home() {
 
                 <div className="">
                     <Button className="text-[16px]" variant="online">
-                        <img className="h-[66px] mt-12 " src="assets/Search.png" alt="logo"/>
+                        <img className="h-[33px] mt-12 " src="assets/Search.png" alt="logo"/>
 
                     </Button>
                 </div>
 
 
                 <div className=""> 
-                    <Button className="gap-4 w-[189px] h-[50px]" variant="">            
-                        <img src="assets/ph_star-fill.png" alt="logo"/>
-                        <span className="text-[12px]"> LAISSER UN AVIS</span>
+                    <Button className="gap-2 w-[100px] h-[30px]" variant="">            
+                        <img className="h-18" src="assets/ph_star-fill.png" alt="logo"/>
+                        <span className="text-[8px]"> LAISSER UN AVIS</span>
                     </Button>
                 </div>
             </div>
