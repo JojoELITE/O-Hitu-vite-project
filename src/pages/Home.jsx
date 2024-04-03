@@ -88,7 +88,7 @@ function Home() {
                     </h6>
                 </div>
 
-                <div className="py-2">
+                <div className="py-2 lg:block hidden">
                     <h6 >
                         Et si vous aviez le pouvoir de choisir le meilleur établissement de santé pour votre santé ? <br/>
                             <span className="font-bold">O’Hitu</span> vous aide à faire votre choix en rassemblant les avis des patients et la note général<br/>
