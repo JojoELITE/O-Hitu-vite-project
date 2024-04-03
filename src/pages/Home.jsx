@@ -62,17 +62,17 @@ function Home() {
                 <div className="flex items-center">
 
                     <div className="">
-                        <Button className=" w-[300px] h-[px] border-2 text-[16px]  bg-white" variant="online">
+                        <Button className=" w-[300px] h-[px] border-2 text-[16px] gap-4 bg-white" variant="online">
                             <img className="" src="assets/material-symbols-light_search.png" alt="logo"/>
-                            <span className="mr-32 mb-4">Rechercher une structure</span>
+                            <span className="mr-10 mb-4">Rechercher une structure</span>
                         </Button>
                         
-                        <Button className=" w-[300px] h-[px] border-2 text-[16px] mt-1 bg-white" variant="online">
+                        <Button className=" w-[300px] h-[px] border-2 text-[16px] gap-4 mt-1 bg-white" variant="online">
                             <img className="" src="assets/fluent_location-20-regular.png" alt="logo"/>
-                            <span className="mr-52 mb-4">Localisation</span>
+                            <span className="mr-32 mb-4">Localisation</span>
                         </Button>
 
-                        <Button className=" w-[300px] h-[px] border-2 text-[16px] gap-4 bg-black mt-1" variant="online">
+                        <Button className=" w-[300px] h-[px] border-2 text-[10px] gap-4 bg-black mt-1" variant="online">
                             <span className="text-center text-white">Rechercher une structure</span>
                             <img className="" src="assets/material-symbols-light_search.png" alt="logo"/>
                         </Button>
@@ -82,16 +82,16 @@ function Home() {
                 </div>
 
 
-                <div className="flex gap-4 ">
-                    <Button className="w-[141.25px] h-[48px] bg-[#1A2E35]" variant="">Hopital</Button>
-                    <Button className="w-[141.25px] h-[48px] bg-[#1A2E35]" variant="">Clinique</Button>
-                    <Button className="w-[141.25px] h-[48px] bg-[#1A2E35]" variant="">Pharmacie</Button>
+                <div className="flex gap-4 mt-4">
+                    <Button className="w-[100px] h-[48px] bg-[#1A2E35] text-[10px]" variant="">Hopital</Button>
+                    <Button className="w-[100px] h-[48px] bg-[#1A2E35] text-[10px]" variant="">Clinique</Button>
+                    <Button className="w-[100px] h-[48px] bg-[#1A2E35] text-[10px]" variant="">Pharmacie</Button>
                 </div>
 
                 <div className="flex gap-4 mt-4">
-                    <Button className="w-[141.25px] h-[48px] bg-[#1A2E35]" variant="">PMI</Button>
-                    <Button className="w-[141.25px] h-[48px] bg-[#1A2E35]" variant="">Cabinet</Button>
-                    <Button className="w-[141.25px] h-[48px] bg-[#1A2E35]" variant="">Centre d'examen</Button>
+                    <Button className="w-[100px] h-[48px] bg-[#1A2E35] text-[10px]" variant="">PMI</Button>
+                    <Button className="w-[100px] h-[48px] bg-[#1A2E35] text-[10px]" variant="">Cabinet</Button>
+                    <Button className="w-[100px] h-[48px] bg-[#1A2E35] text-[10px]" variant="">Centre d'examen</Button>
                 </div>
 
 
