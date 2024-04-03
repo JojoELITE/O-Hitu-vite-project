@@ -8,7 +8,7 @@ function Home() {
     <div className="">
 
 
-        <nav className="flex items-center fixed gap-4 lg:gap-0 py-4 lg:py-4 px-8 lg:px-28  bg-[#F2FAFC]">
+        <nav className="flex items-center lg:fixed sm:fixed gap-4 lg:gap-0 py-4 lg:py-4 px-8 lg:px-28  bg-[#F2FAFC]">
 
             <div className="items-center ">
 
@@ -54,7 +54,7 @@ function Home() {
 
 
 
-        <div className="py-0 lg:py-48 px-8 lg:px-28 flex justify-between bg-[#F2FAFC]">
+        <div className="py-20 lg:py-48 px-8 lg:px-28 flex justify-between bg-[#F2FAFC]">
 
             <div>
 
