@@ -12,7 +12,7 @@ function Home() {
 
             <div className="items-center ">
 
-                <img className="sm:h-14 sm:py-10" src="assets/Group_9__5_-removebg-preview 1.png" alt="logo"/>
+                <img className="sm:py-10" src="assets/Group_9__5_-removebg-preview 1.png" alt="logo"/>
 
             </div>
 
@@ -29,7 +29,7 @@ function Home() {
 
 
             <div className="ml-0 lg:ml-[900px]"> 
-                <Button className="gap-4 w-[100px] lg:w-[189px] h-[30px] lg:h-[50px]" variant="">            
+                <Button className="gap-2 lg:gap-4 w-[100px] lg:w-[189px] h-[30px] lg:h-[50px]" variant="">            
                     <img className="sm:h-18" src="assets/ph_star-fill.png" alt="logo"/>
                     <span className="text-[8px] lg:text-[12px]"> LAISSER UN AVIS</span>
                 </Button>
