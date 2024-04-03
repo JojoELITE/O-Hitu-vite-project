@@ -54,16 +54,16 @@ function Home() {
 
 
 
-        <div className="py-20 lg:py-48 px-8 lg:px-28 flex justify-between bg-[#F2FAFC]">
+        <div className="py-0 lg:py-48 px-8 lg:px-28 flex justify-between bg-[#F2FAFC]">
 
             <div>
 
-                <div className="text-[54.8px]">
+                <div className="text-[30px] lg:text-[54.8px]">
                     <h1>Notez et choisissez <br/> votre structure sanitaire</h1>
                 </div>
 
 
-                <div className="py-2">
+                <div className="py-2 text-[12px] lg:text-[0px]">
                     <h6 >
                         Et si vous aviez le pouvoir de choisir le meilleur établissement de santé pour votre santé ? <br/>
                             <span className="font-bold">O’Hitu</span> vous aide à faire votre choix en rassemblant les avis des patients et la note général<br/>
