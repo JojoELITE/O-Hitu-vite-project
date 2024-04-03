@@ -191,6 +191,17 @@ function Home() {
 
         <div className=" bg-[#F2FAFC] h-20"></div>
 
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+
+
 
 
 
