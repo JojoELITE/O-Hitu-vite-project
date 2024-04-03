@@ -12,7 +12,7 @@ function Home() {
 
             <div className="items-center ">
 
-                <img className="sm:py-10 px-10 lg:px-0" src="assets/Group_9__5_-removebg-preview 1.png" alt="logo"/>
+                <img className="sm:py-10 px-4 lg:px-0" src="assets/Group_9__5_-removebg-preview 1.png" alt="logo"/>
 
             </div>
 
