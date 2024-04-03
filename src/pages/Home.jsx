@@ -17,7 +17,7 @@ function Home() {
             </div>
 
 
-            <div className="ml-6 lg:ml-8">
+            <div className="ml-10 lg:ml-8">
                 <Button className="text-[16px] gap-4 flex" variant="online">
                     <img className="h-[40px] lg:h-[66px] mt-2" src="assets/Search.png" alt="logo"/>
 
