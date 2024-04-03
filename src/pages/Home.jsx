@@ -11,7 +11,7 @@ function Home() {
 
             <div className="px-8">
 
-                <img src="assets/Group_9__5_-removebg-preview 1.png" alt="logo"/>
+                <img className="h-14" src="assets/Group_9__5_-removebg-preview 1.png" alt="logo"/>
 
             </div>
 
@@ -20,7 +20,7 @@ function Home() {
 
                 <div className="">
                     <Button className="text-[16px]" variant="online">
-                        <img className="h-[33px] mt-12 " src="assets/Search.png" alt="logo"/>
+                        <img className="h-[33px] mt-6 " src="assets/Search.png" alt="logo"/>
 
                     </Button>
                 </div>
