@@ -28,7 +28,7 @@ function Home() {
 
 
                 <div className=""> 
-                    <Button className="gap-2 w-[100px] h-[30px]" variant="">            
+                    <Button className="gap-1 w-[100px] h-[30px]" variant="">            
                         <img className="h-18" src="assets/ph_star-fill.png" alt="logo"/>
                         <span className="text-[8px]"> LAISSER UN AVIS</span>
                     </Button>
