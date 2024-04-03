@@ -72,7 +72,7 @@ function Home() {
 
                     <h6 className="lg:hidden">
                         Et si vous aviez le pouvoir de choisir le meilleur <br/>établissement de santé pour votre santé ?
-                        <br/><span className="font-bold">O’Hitu</span> vous aide à faire votre choix en rassemblant les avis des patients et la note général
+                        <br/><span className="font-bold">O’Hitu</span> vous aide à faire votre choix en rassemblant <br/>les avis des patients et la note général
                         <br/>de Connexions 4.0.  
                     </h6>
                 </div>
