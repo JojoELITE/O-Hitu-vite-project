@@ -19,7 +19,7 @@ function Home() {
 
             <div className="ml-20 lg:ml-8">
                 <Button className="text-[16px] gap-4 flex" variant="online">
-                    <img className="h-[48px] lg:h-[66px] mt-2" src="assets/Search.png" alt="logo"/>
+                    <img className="h-[40px] lg:h-[66px] mt-2" src="assets/Search.png" alt="logo"/>
 
                     <div>
                         <span className="mb-4 hidden lg:block">Rechercher une structure sanitaire</span>
