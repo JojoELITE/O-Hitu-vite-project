@@ -7,16 +7,17 @@ function Home() {
   return (
     <div className="">
 
-        <nav className="items-center py-4 bg-[#F2FAFC] flex justify-between">
+            
+        <nav className="items-center sm:py-4 sm:px-0 lg:py-12 lg:px-28 bg-[#F2FAFC] flex justify-between">
 
-            <div className="px-6">
+            <div className="px-6 lg:hidden">
 
                 <img className="h-14" src="assets/Group_9__5_-removebg-preview 1.png" alt="logo"/>
 
             </div>
 
 
-            <div className="flex items-center px-6">
+            <div className="flex items-center px-6 lg:hidden">
 
                 <div className="">
                     <Button className="text-[16px]" variant="online">
@@ -34,7 +35,32 @@ function Home() {
                 </div>
             </div>
 
-          
+
+
+            <div className="flex gap-14 items-center lg:flex sm:hidden">
+
+                <img src="assets/Group_9__5_-removebg-preview 1.png" alt="logo"/>
+
+                <div className="">
+                    <Button className="text-[16px] gap-4 flex" variant="online">
+                            <img className="h-[66px] mt-" src="assets/Search.png" alt="logo"/>
+
+                        <div>
+                            <span className="mb-4 ">Rechercher une structure sanitaire</span>
+                        </div>
+                    </Button>
+                </div>
+
+            </div>
+
+
+            <div className="lg:block sm:hidden"> 
+                <Button className="gap-4 w-[189px] h-[50px]" variant="">            
+                    <img src="assets/ph_star-fill.png" alt="logo"/>
+                    <span className="text-[12px]"> LAISSER UN AVIS</span>
+                </Button>
+            </div>
+
 
         </nav>
 
@@ -107,7 +133,7 @@ function Home() {
                         <Button className="w-[80px] h-[48px] font-bold text-[10px] rounded" variant="online">Cliniques</Button>
                         <Button className="w-[80px] h-[48px] font-bold text-[10px] rounded ml-4" variant="online">Pharmacies</Button>
                         <Button className="w-[80px] h-[48px] font-bold text-[10px] rounded" variant="online">Pmi</Button>
-                      
+                    
                     </div>
 
 
@@ -189,35 +215,7 @@ function Home() {
             </div>
         </div>
 
-        <div className=" bg-[#F2FAFC] h-20"></div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <div className=" bg-[#F2FAFC] h-20 sm:block md:block lg:hidden"></div>
 
 
 
