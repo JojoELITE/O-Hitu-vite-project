@@ -7,7 +7,7 @@ function Home() {
   return (
     <div className="">
 
-        <nav className="items-center py-12  bg-[#F2FAFC] flex justify-between">
+        <nav className="items-center py-4 bg-[#F2FAFC] flex justify-between">
 
             <div className="px-6">
 
@@ -51,7 +51,7 @@ function Home() {
                 </div>
 
 
-                <div className="py-2">
+                <div className="py-2 text-[8px]">
                     <h6 >
                         Et si vous aviez le pouvoir de choisir le meilleur établissement de santé pour votre santé ? <br/>
                             <span className="font-bold">O’Hitu</span> vous aide à faire votre choix en rassemblant les avis des patients et la note général<br/>
