@@ -103,10 +103,10 @@ function Home() {
                     <h2 className="text-[#4B4B61] text-center py-6 text-[20px]">Les mieux notés</h2>
 
                     <div className="flex items-center border-b-2 border-black">
-                        <Button className="w-[80px] h-[48px] font-bold text-[12px] rounded" variant="">Hopitaux</Button>
-                        <Button className="w-[80px] h-[48px] font-bold text-[12px] rounded" variant="online">Cliniques</Button>
-                        <Button className="w-[80px] h-[48px] font-bold text-[12px] rounded ml-4" variant="online">Pharmacies</Button>
-                        <Button className="w-[80px] h-[48px] font-bold text-[12px] rounded" variant="online">Pmi</Button>
+                        <Button className="w-[80px] h-[48px] font-bold text-[10px] rounded" variant="">Hopitaux</Button>
+                        <Button className="w-[80px] h-[48px] font-bold text-[10px] rounded" variant="online">Cliniques</Button>
+                        <Button className="w-[80px] h-[48px] font-bold text-[10px] rounded ml-4" variant="online">Pharmacies</Button>
+                        <Button className="w-[80px] h-[48px] font-bold text-[10px] rounded" variant="online">Pmi</Button>
                       
                     </div>
 
@@ -173,12 +173,10 @@ function Home() {
                             <img className="h-3" src="assets/ph_star-fill.png" alt="logo"/>
                         </div>
 
-
                     </div>
                     
-
                 </div>
-                <div className="h-2 bg-white"></div>
+
 
                 <div className="mt-3">
 
