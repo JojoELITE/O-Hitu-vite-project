@@ -8,18 +8,18 @@ function Home() {
     <div className="">
 
 
-        <nav className="flex items-center gap-4 lg:gap-0 py-4 lg:py-4 px-8  lg:px-28  bg-[#F2FAFC]">
+        <nav className="flex items-center gap-4 lg:gap-0 py-4 lg:py-4 px-8 lg:px-28  bg-[#F2FAFC]">
 
             <div className="items-center ">
 
-                <img className="sm:py-10" src="assets/Group_9__5_-removebg-preview 1.png" alt="logo"/>
+                <img className="sm:py-10 px-10 lg:px-0" src="assets/Group_9__5_-removebg-preview 1.png" alt="logo"/>
 
             </div>
 
 
             <div className="lg:ml-8">
                 <Button className="text-[16px] gap-4 flex" variant="online">
-                    <img className="h-[40px] lg:h-[66px] mt-2 ml-20 lg:ml-0" src="assets/Search.png" alt="logo"/>
+                    <img className="h-[40px] lg:h-[66px] mt-2 ml-10 lg:ml-0" src="assets/Search.png" alt="logo"/>
 
                     <div>
                         <span className="mb-4 hidden lg:block">Rechercher une structure sanitaire</span>
