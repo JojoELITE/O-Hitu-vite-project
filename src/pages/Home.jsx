@@ -54,7 +54,7 @@ function Home() {
 
 
 
-        <div className="py-0 lg:py-48 px-8 lg:px-28 block lg:flex justify-between bg-[#F2FAFC]">
+        <div className="py-2 lg:py-48 px-8 lg:px-28 block lg:flex justify-between bg-[#F2FAFC]">
 
             <div>
 
@@ -154,64 +154,64 @@ function Home() {
 
 
 
-                    <div className="py-6 px-3 flex justify-between border-b-2 border">
+                    <div className="py-2 lg:py-6 px-3 flex justify-between border-b-2 border">
                         <div className="">
-                            <h1 className="font-bold text-2xl">CHUL</h1>
-                            <h6 className="text-[#585858] text-[16px]">Centre Hospitalier Universitaire de Libreville</h6>
+                            <h1 className="font-bold text-xl lg:text-2xl">CHUL</h1>
+                            <h6 className="text-[#585858] text-[10px] lg:text-[16px]">Centre Hospitalier Universitaire de Libreville</h6>
                         </div>
 
                         <div className="flex mr-3 gap-4">
-                            <img className="h-5 mt-2" src="assets/Vector.png" alt="logo"/>
-                            <h1 className="font-bold text-2xl">4,5</h1>
-                            <img className="h-6" src="assets/ph_star-fill.png" alt="logo"/>
+                            <img className="h-2.5 lg:h-5 mt-0 lg:mt-2" src="assets/Vector.png" alt="logo"/>
+                            <h1 className="font-bold text-xl lg:text-2xl">4,5</h1>
+                            <img className="h-3 lg:h-6" src="assets/ph_star-fill.png" alt="logo"/>
 
                         </div>
 
                     </div>
 
 
-                    <div className="py-4 px-3 flex justify-between border-b-2 border">
+                    <div className="py-2 lg:py-4 px-3 flex justify-between border-b-2 border">
                         <div className="">
-                            <h1 className="font-bold text-2xl">CHUO</h1>
-                            <h6 className="text-[#585858] text-[16px]">Centre Hospitalier Universitaire d’Owendo</h6>
+                            <h1 className="font-bold text-xl lg:text-2xl">CHUO</h1>
+                            <h6 className="text-[#585858] text-[10px] lg:text-[16px]">Centre Hospitalier Universitaire d’Owendo</h6>
                         </div>
 
                         <div className="flex mr-3 gap-4">
-                            <img className="h-5 mt-2" src="assets/Vector.png" alt="logo"/>
-                            <h1 className="font-bold text-2xl">4,5</h1>
-                            <img className="h-6" src="assets/ph_star-fill.png" alt="logo"/>
+                            <img className="h-2.5 lg:h-5 mt-0 lg:mt-2" src="assets/Vector.png" alt="logo"/>
+                            <h1 className="font-bold text-xl lg:text-2xl">4,5</h1>
+                            <img className="h-3 lg:h-6" src="assets/ph_star-fill.png" alt="logo"/>
 
                         </div>
 
                     </div>
 
 
-                    <div className="py-4 px-3 flex justify-between border-b-2 border">
+                    <div className="py-2 lg:py-4 px-3 flex justify-between border-b-2 border">
                         <div className="">
-                            <h1 className="font-bold text-2xl">CHUA</h1>
-                            <h6 className="text-[#585858] text-[16px]">Centre Hospitalier Universitaire d’Akanda</h6>
+                            <h1 className="font-bold text-xl lg:text-2xl">CHUA</h1>
+                            <h6 className="text-[#585858] text-[10px] lg:text-[16px]">Centre Hospitalier Universitaire d’Akanda</h6>
                         </div>
 
-                        <div className="flex mr-3 gap-4">
-                            <img className="h-5 mt-3" src="assets/Vector Rouge.png" alt="logo"/>
-                            <h1 className="font-bold text-2xl">2,5</h1>
-                            <img className="h-6" src="assets/ph_star-fill.png" alt="logo"/>
+                        <div className="flex mr-3 gap-4 mt-5 lg:mt-0">
+                            <img className="h-2.5 lg:h-5 mt-0 lg:mt-3" src="assets/Vector Rouge.png" alt="logo"/>
+                            <h1 className="font-bold text-xl lg:text-2xl">2,5</h1>
+                            <img className="h-3 lg:h-6" src="assets/ph_star-fill.png" alt="logo"/>
 
                         </div>
 
                     </div>
 
 
-                    <div className="py-4 px-3 flex justify-between">
+                    <div className="py-2 lg:py-4 px-3 flex justify-between">
                         <div className="">
-                            <h1 className="font-bold text-2xl">NTENGUE</h1>
-                            <h6 className="text-[#585858] text-[16px]">Hôpital Régional de Ntengue</h6>
+                            <h1 className="font-bold text-xl lg:text-2xl">NTENGUE</h1>
+                            <h6 className="text-[#585858] text-[10px] lg:text-[16px]">Hôpital Régional de Ntengue</h6>
                         </div>
 
-                        <div className="flex mr-3 gap-4">
-                            <img className="h-5 mt-3 mr-4" src="assets/Vector Rouge.png" alt="logo"/>
-                            <h1 className="font-bold text-2xl">1</h1>
-                            <img className="h-6" src="assets/ph_star-fill.png" alt="logo"/>
+                        <div className="flex mr-3 gap-4 mt-5 lg:mt-0">
+                            <img className="h-2.5 lg:h-5 mt-2 lg:mt-3 mr-4" src="assets/Vector Rouge.png" alt="logo"/>
+                            <h1 className="font-bold text-xl lg:text-2xl">1</h1>
+                            <img className="h-3 lg:h-6 mt-2 lg:mt-0" src="assets/ph_star-fill.png" alt="logo"/>
 
                         </div>
 
@@ -222,16 +222,21 @@ function Home() {
 
                 </div>
 
-                <div className="py-4">
+                <div className="lg:py-4 mt-3 lg:mt-0">
 
                     <a className="" href="#">
-                        <span className="text-[#DB4C4C] px-44 text-[20px] underline">Afficher plus de structure</span>
+                        <span className="text-[#DB4C4C] px-14 lg:px-44 text-[16px] lg:text-[20px] underline">Afficher plus de structure</span>
                     </a>
 
                 </div>
 
             </div>
         </div>
+
+
+
+
+        <div className=" bg-[#F2FAFC] h-20 sm:block lg:hidden"></div>
 
 
 
