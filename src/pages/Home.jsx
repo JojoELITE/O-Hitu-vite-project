@@ -96,6 +96,12 @@ function Home() {
                             <span className=" mr-32 lg:mr-52 lg:mb-4 text-[#BDBDBD]">Localisation</span>
                             <img className="lg:h-[44px] lg:block hidden" src="assets/fluent_location-20-regular.png" alt="logo"/>
                         </Button>
+
+
+                        <Button className=" w-[300px] h-[px] border-2 text-[10px] gap-4 bg-black mt-1 lg:hidden" variant="online">
+                            <span className="text-center text-white">Rechercher une structure</span>
+                            <img className="" src="assets/material-symbols-light_search.png" alt="logo"/>
+                        </Button>
                     </div>
 
 
