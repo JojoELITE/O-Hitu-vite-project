@@ -1,11 +1,13 @@
 import React from "react";
 import { Button } from "@/components/ui/button"
+import Footer from "./components/Footer";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
 
 function Home() {
 
   return (
-    <div className="">
+    <div className="block md:hidden lg:block">
 
 
         <nav className="flex items-center lg:fixed sm:fixed gap-4 lg:gap-0 py-4 lg:py-4 px-8 lg:px-28  bg-[#F2FAFC]">
@@ -54,7 +56,7 @@ function Home() {
 
 
 
-        <div className="py-2 lg:py-48 px-8 lg:px-28 block lg:flex justify-between bg-[#F2FAFC]">
+        <div className="py-2 lg:py-60 px-8 lg:px-28 block lg:flex justify-between bg-[#F2FAFC]">
 
             <div>
 
@@ -133,6 +135,19 @@ function Home() {
 
             </div>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
             <div className="mt-10 lg:mt-0">
 
                 <div className="h-[430px] lg:h-[560px] bg-white rounded-b-lg shadow-lg"> 
@@ -140,83 +155,97 @@ function Home() {
                     <h2 className="text-[#4B4B61] text-center py-6 lg:py-10 text-[20px]  sm:block lg:hidden">Les mieux notés</h2>
 
 
-                    <div className="flex lg:gap-4 items-center border-b-2 border-black">
-                        <Button className="w-[80px] lg:w-[120px] h-[48px] font-bold text-[10px] lg:text-xl rounded" variant="">Hopitaux</Button>
-                        <Button className="w-[80px] lg:w-[120px] h-[48px] font-bold text-[10px] lg:text-xl rounded" variant="online">Cliniques</Button>
-                        <Button className="w-[80px] lg:w-[120px] h-[48px] font-bold text-[10px] lg:text-xl rounded ml-4" variant="online">Pharmacies</Button>
-                        <Button className="w-[80px] lg:w-[100px] h-[48px] font-bold text-[10px] lg:text-xl rounded" variant="online">Pmi</Button>
-
-                        <Button className="h-[48px] font-bold text-xl rounded lg:block hidden" variant="online">
-                            <img className="h-6" src="assets/ph_caret-up-bold.png" alt="logo"/>
-                        </Button>
-                    </div>
 
 
 
 
-                    <div className="py-2 lg:py-6 px-3 flex justify-between border-b-2 border">
-                        <div className="">
-                            <h1 className="font-bold text-xl lg:text-2xl">CHUL</h1>
-                            <h6 className="text-[#585858] text-[10px] lg:text-[16px]">Centre Hospitalier Universitaire de Libreville</h6>
-                        </div>
-
-                        <div className="flex mr-3 gap-4 mt-5 lg:mt-0">
-                            <img className="h-2.5 lg:h-5 mt-2 lg:mt-2" src="assets/Vector.png" alt="logo"/>
-                            <h1 className="font-bold text-xl lg:text-2xl">4,5</h1>
-                            <img className="h-3 lg:h-6 mt-2 lg:mt-0" src="assets/ph_star-fill.png" alt="logo"/>
-
-                        </div>
-
-                    </div>
 
 
-                    <div className="py-2 lg:py-4 px-3 flex justify-between border-b-2 border">
-                        <div className="">
-                            <h1 className="font-bold text-xl lg:text-2xl">CHUO</h1>
-                            <h6 className="text-[#585858] text-[10px] lg:text-[16px]">Centre Hospitalier Universitaire d’Owendo</h6>
-                        </div>
 
-                        <div className="flex mr-3 gap-4 mt-5 lg:mt-0">
-                            <img className="h-2.5 lg:h-5 mt-2 lg:mt-2" src="assets/Vector.png" alt="logo"/>
-                            <h1 className="font-bold text-xl lg:text-2xl">4,5</h1>
-                            <img className="h-3 lg:h-6 mt-2 lg:mt-0" src="assets/ph_star-fill.png" alt="logo"/>
+        <Tabs defaultValue="account" className="">
+            <TabsList className="gap-2 lg:gap-10 border-b-2 border-black">
+                <TabsTrigger value="account">Hopitaux</TabsTrigger>
+                <TabsTrigger value="cliniques">Cliniques</TabsTrigger>
+                <TabsTrigger value="pharmacies">Pharmacies</TabsTrigger>
+                <TabsTrigger value="pmi">Pmi</TabsTrigger>
+                <TabsTrigger value="...">
+                    <img className="h-4 lg:h-4  ml-6 lg:ml-6" src="assets/ph_caret-up-bold.png" alt="logo"/>
+                </TabsTrigger>
+
+
+            </TabsList>
+            <TabsContent value="account">
+
+
+                        <div className="py-2 lg:py-6 px-3 flex justify-between border-b-2 border">
+                            <div className="">
+                                <h1 className="font-bold text-xl lg:text-2xl">CHUL</h1>
+                                <h6 className="text-[#585858] text-[10px] lg:text-[16px]">Centre Hospitalier Universitaire de Libreville</h6>
+                            </div>
+
+                            <div className="flex mr-3 gap-4 mt-5 lg:mt-3">
+                                <img className="h-2.5 lg:h-5 mt-2 lg:mt-1" src="assets/Vector.png" alt="logo"/>
+                                <h1 className="font-bold text-xl lg:text-2xl">4,5</h1>
+                                <img className="h-3 lg:h-6 mt-2 lg:mt-1" src="assets/ph_star-fill.png" alt="logo"/>
+
+                            </div>
 
                         </div>
 
-                    </div>
 
+                        <div className="py-2 lg:py-4 px-3 flex justify-between border-b-2 border">
+                            <div className="">
+                                <h1 className="font-bold text-xl lg:text-2xl">CHUO</h1>
+                                <h6 className="text-[#585858] text-[10px] lg:text-[16px]">Centre Hospitalier Universitaire d’Owendo</h6>
+                            </div>
 
-                    <div className="py-2 lg:py-4 px-3 flex justify-between border-b-2 border">
-                        <div className="">
-                            <h1 className="font-bold text-xl lg:text-2xl">CHUA</h1>
-                            <h6 className="text-[#585858] text-[10px] lg:text-[16px]">Centre Hospitalier Universitaire d’Akanda</h6>
-                        </div>
+                            <div className="flex mr-3 gap-4 mt-5 lg:mt-3">
+                                <img className="h-2.5 lg:h-5 mt-2 lg:mt-1" src="assets/Vector.png" alt="logo"/>
+                                <h1 className="font-bold text-xl lg:text-2xl">4,5</h1>
+                                <img className="h-3 lg:h-6 mt-2 lg:mt-1" src="assets/ph_star-fill.png" alt="logo"/>
 
-                        <div className="flex mr-3 gap-4 mt-4 lg:mt-0">
-                            <img className="h-2.5 lg:h-5 mt-3 lg:mt-3" src="assets/Vector Rouge.png" alt="logo"/>
-                            <h1 className="font-bold text-xl lg:text-2xl">2,5</h1>
-                            <img className="h-3 lg:h-6 mt-2 lg:mt-0" src="assets/ph_star-fill.png" alt="logo"/>
-
-                        </div>
-
-                    </div>
-
-
-                    <div className="py-2 lg:py-4 px-3 flex justify-between">
-                        <div className="">
-                            <h1 className="font-bold text-xl lg:text-2xl">NTENGUE</h1>
-                            <h6 className="text-[#585858] text-[10px] lg:text-[16px]">Hôpital Régional de Ntengue</h6>
-                        </div>
-
-                        <div className="flex mr-3 gap-4 mt-4 lg:mt-0 items-center">
-                            <img className="h-2.5 lg:h-5 mt-2 lg:mt-3 mr-4" src="assets/Vector Rouge.png" alt="logo"/>
-                            <h1 className="font-bold text-xl lg:text-2xl">1</h1>
-                            <img className="h-3 lg:h-6 mt-0 lg:mt-0" src="assets/ph_star-fill.png" alt="logo"/>
+                            </div>
 
                         </div>
 
-                    </div>
-                    
+
+                        <div className="py-2 lg:py-4 px-3 flex justify-between border-b-2 border">
+                            <div className="">
+                                <h1 className="font-bold text-xl lg:text-2xl">CHUA</h1>
+                                <h6 className="text-[#585858] text-[10px] lg:text-[16px]">Centre Hospitalier Universitaire d’Akanda</h6>
+                            </div>
+
+                            <div className="flex mr-3 gap-4 mt-4 lg:mt-3">
+                                <img className="h-2.5 lg:h-5 mt-3 lg:mt-2" src="assets/Vector Rouge.png" alt="logo"/>
+                                <h1 className="font-bold text-xl lg:text-2xl">2,5</h1>
+                                <img className="h-3 lg:h-6 mt-2 lg:mt-1" src="assets/ph_star-fill.png" alt="logo"/>
+
+                            </div>
+
+                        </div>
+
+
+                        <div className="py-2 lg:py-4 px-3 flex justify-between">
+                            <div className="">
+                                <h1 className="font-bold text-xl lg:text-2xl">NTENGUE</h1>
+                                <h6 className="text-[#585858] text-[10px] lg:text-[16px]">Hôpital Régional de Ntengue</h6>
+                            </div>
+
+                            <div className="flex mr-3 gap-4 mt-4 lg:mt-3 items-center">
+                                <img className="h-2.5 lg:h-5 mt-2 lg:mt-1 mr-4" src="assets/Vector Rouge.png" alt="logo"/>
+                                <h1 className="font-bold text-xl lg:text-2xl">1</h1>
+                                <img className="h-3 lg:h-6 mt-0 lg:mt-0" src="assets/ph_star-fill.png" alt="logo"/>
+
+                            </div>
+
+                        </div>
+            </TabsContent>
+            <TabsContent value="cliniques">Change your password here.</TabsContent>
+            <TabsContent value="pharmacies">Change your password here.</TabsContent>
+            <TabsContent value="pmi">Change your password here.</TabsContent>
+            <TabsContent value="...">Change your password here.</TabsContent>
+
+        </Tabs>
 
 
 
@@ -263,7 +292,7 @@ function Home() {
 
 
 
-        <div className="py-16 bg-[#F6F8FB] hidden lg:block">
+        <div className="py-6 bg-[#F6F8FB] hidden lg:block">
 
             <h1 className="font-bold text-4xl text-center">Trouvez l'hôpital ou la clinique qui prendra <br/>
                 soin de vous grâce aux avis des patients
@@ -310,94 +339,9 @@ function Home() {
             </div>
         </div>
 
+        <Footer/>
 
 
-        <footer className="bg-black flex hidden lg:flex">
-
-            <div className="flex py-12 px-28 gap-60">
-                
-                <div className="">
-                    <div>
-                        <img src="assets/Group_9__6_-removebg-preview 1.png" alt="logo"/>
-                    </div>
-                </div>
-
-                
-                <div className="text-white">
-                    <div>                    
-                        <a href="#">Qui sommes-nous ?</a>
-                    </div>
-
-                    <div className="mt-6">                    
-                        <a href="#">Presse</a>
-                    </div>
-
-                    <div className="mt-6">
-                        <a href="#">Mentions légales</a>
-                    </div>
-
-                </div>
-            </div>
-
-
-            <div className="flex py-12 px-28 gap-60">
-                <div className="text-white">
-
-                    <div>
-                        <a href="#">Conditions générales d'utilisation</a>
-                    </div>
-
-                    <div className="mt-6">
-                        <a href="#">Politique de confidentialité</a>
-                    </div>
-
-                </div>
-
-
-                <div>
-                    <h6 className="text-sm text-[#9E4141]">Contactez-nous :</h6>
-
-                    <div className="mt-3">
-                        <a className="text-white " href="#">contact@cnx4-0.com</a>
-                    </div>
-
-                    <h6 className="text-sm text-[#9E4141] mt-5">Suivez-nous sur les réseaux</h6>
-
-
-                    <div className="flex gap-3 items-center mt-3">
-
-                        <div>
-                            <a href="#">
-                                 <img className="" src="assets/fa Icon.png" alt="logo"/>
-                            </a>
-                        </div>
-                        
-
-                        <div>
-                            <a href="#">
-                                 <img className="" src="assets/Twitter Vector.png" alt="logo"/>
-                            </a>
-                        </div> 
-                        
-                        
-                        <div>
-                            <a href="#">
-                                 <img className="" src="assets/in Vector (1).png" alt="logo"/>
-                            </a>
-                        </div>
-                        
-                       
-                    </div>
-
-                </div>
-            </div>
-
-        </footer>
-
-
-        <div className="bg-black p-6 hidden lg:block">
-            <h1 className="font-bold text-white text-center">© 2024 - CONNEXIONS 4.0</h1>
-        </div>
 
     </div>
   )
