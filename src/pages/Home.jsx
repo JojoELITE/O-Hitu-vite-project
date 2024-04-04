@@ -179,7 +179,7 @@ function Home() {
 
                         <div className="py-2 lg:py-6 px-3 flex justify-between border-b-2 border">
                             <div className="">
-                                <h1 className="font-bold text-xl lg:text-2xl">CHUL</h1>
+                                <h1 className="font-bold text-xl lg:text-2xl">CHULll</h1>
                                 <h6 className="text-[#585858] text-[10px] lg:text-[16px]">Centre Hospitalier Universitaire de Libreville</h6>
                             </div>
 
