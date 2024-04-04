@@ -54,7 +54,7 @@ function Home() {
 
 
 
-        <div className="py-0 lg:py-48 px-8 lg:px-28 flex justify-between bg-[#F2FAFC]">
+        <div className="py-0 lg:py-48 px-8 lg:px-28 lg:flex justify-between bg-[#F2FAFC]">
 
             <div>
 
@@ -83,9 +83,9 @@ function Home() {
 
 
 
-                <div className="col lg:flex items-center">
+                <div className="lg:flex items-center">
 
-                    <div className="py-10 flex">
+                    <div className="py-10 block lg:flex">
                         <Button className=" w-[300px] lg:w-[426.04px] lg:h-[70px] border-2 text-[16px] gap-4 sm:bg-white" variant="online">
                             <img className="lg:h-[66px]" src="assets/material-symbols-light_search.png" alt="logo"/>
                             <span className="mr-10 lg:mr-32 lg:mb-4 text-[#BDBDBD]">Rechercher une structure</span>
