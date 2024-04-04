@@ -193,7 +193,7 @@ function Home() {
                         </div>
 
                         <div className="flex mr-3 gap-4 mt-4 lg:mt-0">
-                            <img className="h-2.5 lg:h-5 mt-2 lg:mt-3" src="assets/Vector Rouge.png" alt="logo"/>
+                            <img className="h-2.5 lg:h-5 mt-3 lg:mt-3" src="assets/Vector Rouge.png" alt="logo"/>
                             <h1 className="font-bold text-xl lg:text-2xl">2,5</h1>
                             <img className="h-3 lg:h-6 mt-2 lg:mt-0" src="assets/ph_star-fill.png" alt="logo"/>
 
@@ -211,7 +211,7 @@ function Home() {
                         <div className="flex mr-3 gap-4 mt-4 lg:mt-0 items-center">
                             <img className="h-2.5 lg:h-5 mt-2 lg:mt-3 mr-4" src="assets/Vector Rouge.png" alt="logo"/>
                             <h1 className="font-bold text-xl lg:text-2xl">1</h1>
-                            <img className="h-3 lg:h-6 mt-2 lg:mt-0" src="assets/ph_star-fill.png" alt="logo"/>
+                            <img className="h-3 lg:h-6 mt-1 lg:mt-0" src="assets/ph_star-fill.png" alt="logo"/>
 
                         </div>
 
