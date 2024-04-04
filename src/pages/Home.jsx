@@ -85,7 +85,7 @@ function Home() {
 
                 <div className="lg:flex items-center">
 
-                    <div className="py-10 block lg:flex">
+                    <div className="lg:py-10 block lg:flex">
                         <Button className=" w-[300px] lg:w-[426.04px] lg:h-[70px] border-2 text-[16px] gap-4 sm:bg-white" variant="online">
                             <img className="lg:h-[66px]" src="assets/material-symbols-light_search.png" alt="logo"/>
                             <span className="mr-10 lg:mr-32 lg:mb-4 text-[#BDBDBD]">Rechercher une structure</span>
@@ -125,7 +125,7 @@ function Home() {
                     <Button className=" w-[100px] lg:w-[141.25px] h-[48px] bg-[#1A2E35] lg:block hidden" variant="">PMI</Button>
                 </div>
 
-                <div className="flex lg:hidden gap-4 ">
+                <div className="flex lg:hidden gap-4 mt-4">
                     <Button className="w-[100px] h-[48px] bg-[#1A2E35] text-[10px]" variant="">PMI</Button>
                     <Button className="w-[100px] h-[48px] bg-[#1A2E35] text-[10px]" variant="">Cabinet</Button>
                     <Button className="w-[100px] h-[48px] bg-[#1A2E35] text-[10px]" variant="">Centre d'examen</Button>
