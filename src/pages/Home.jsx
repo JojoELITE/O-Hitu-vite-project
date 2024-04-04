@@ -83,7 +83,7 @@ function Home() {
 
 
 
-                <div className=" lg:flex items-center">
+                <div className="block lg:flex items-center">
 
                     <div className="py-10 flex">
                         <Button className=" w-[300px] lg:w-[426.04px] lg:h-[70px] border-2 text-[16px] gap-4 sm:bg-white" variant="online">
