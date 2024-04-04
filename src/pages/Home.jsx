@@ -119,16 +119,16 @@ function Home() {
 
 
                 <div className="flex gap-4">
-                    <Button className=" w-[100px] lg:w-[141.25px] h-[48px] bg-[#1A2E35]" variant="">Hopital</Button>
-                    <Button className=" w-[100px] lg:w-[141.25px] h-[48px] bg-[#1A2E35]" variant="">Clinique</Button>
-                    <Button className=" w-[100px] lg:w-[141.25px] h-[48px] bg-[#1A2E35]" variant="">Pharmacie</Button>
+                    <Button className=" w-[100px] lg:w-[141.25px] h-[48px] bg-[#1A2E35] text-[10px] lg:text-0" variant="">Hopital</Button>
+                    <Button className=" w-[100px] lg:w-[141.25px] h-[48px] bg-[#1A2E35] text-[10px] lg:text-0" variant="">Clinique</Button>
+                    <Button className=" w-[100px] lg:w-[141.25px] h-[48px] bg-[#1A2E35] text-[10px] lg:text-0" variant="">Pharmacie</Button>
                     <Button className=" w-[100px] lg:w-[141.25px] h-[48px] bg-[#1A2E35] lg:block hidden" variant="">PMI</Button>
                 </div>
 
                 <div className="flex lg:hidden gap-4 mt-4">
-                    <Button className="w-[100px] h-[48px] bg-[#1A2E35] text-[10px]" variant="">PMI</Button>
-                    <Button className="w-[100px] h-[48px] bg-[#1A2E35] text-[10px]" variant="">Cabinet</Button>
-                    <Button className="w-[100px] h-[48px] bg-[#1A2E35] text-[10px]" variant="">Centre d'examen</Button>
+                    <Button className="w-[100px] h-[48px] bg-[#1A2E35] text-[10px] lg:text-0" variant="">PMI</Button>
+                    <Button className="w-[100px] h-[48px] bg-[#1A2E35] text-[10px] lg:text-0" variant="">Cabinet</Button>
+                    <Button className="w-[100px] h-[48px] bg-[#1A2E35] text-[10px] lg:text-0" variant="">Centre d'examen</Button>
                 </div>
 
             </div>
