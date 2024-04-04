@@ -4,6 +4,7 @@ import Footer from "./components/Footer";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
 
+
 function Home() {
 
   return (
@@ -90,12 +91,13 @@ function Home() {
                     <div className="lg:py-10 block lg:flex">
                         <Button className=" w-[300px] lg:w-[426.04px] lg:h-[70px] border-2 text-[16px] gap-4 sm:bg-white" variant="online">
                             <img className="lg:h-[66px]" src="assets/material-symbols-light_search.png" alt="logo"/>
-                            <span className="mr-10 lg:mr-32 lg:mb-4 text-[#BDBDBD]">Rechercher une structure</span>
+                            <input className="py-2 px-4 outline-none " type="text" placeholder="Rechercher une structure" />
+
                         </Button>
                         
                         <Button className=" w-[300px] lg:w-[426.04px] lg:h-[70px] border-2 text-[16px] gap-4 mt-1 lg:mt-0 sm:bg-white" variant="online">
                             <img className="lg:h-[44px] sm:block lg:hidden" src="assets/fluent_location-20-regular.png" alt="logo"/>
-                            <span className=" mr-32 lg:mr-52 lg:mb-4 text-[#BDBDBD]">Localisation</span>
+                            <input className="py-2 px-4 outline-none" type="text" placeholder="Localisation" />
                             <img className="lg:h-[44px] lg:block hidden" src="assets/fluent_location-20-regular.png" alt="logo"/>
                         </Button>
 
