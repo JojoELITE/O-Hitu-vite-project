@@ -118,14 +118,14 @@ function Home() {
 
 
 
-                <div className="flex gap-4 mt- lg:mt-0">
+                <div className="flex gap-4">
                     <Button className=" w-[100px] lg:w-[141.25px] h-[48px] bg-[#1A2E35]" variant="">Hopital</Button>
                     <Button className=" w-[100px] lg:w-[141.25px] h-[48px] bg-[#1A2E35]" variant="">Clinique</Button>
                     <Button className=" w-[100px] lg:w-[141.25px] h-[48px] bg-[#1A2E35]" variant="">Pharmacie</Button>
                     <Button className=" w-[100px] lg:w-[141.25px] h-[48px] bg-[#1A2E35] lg:block hidden" variant="">PMI</Button>
                 </div>
 
-                <div className="flex lg:hidden gap-4 mt-4">
+                <div className="flex lg:hidden gap-4 ">
                     <Button className="w-[100px] h-[48px] bg-[#1A2E35] text-[10px]" variant="">PMI</Button>
                     <Button className="w-[100px] h-[48px] bg-[#1A2E35] text-[10px]" variant="">Cabinet</Button>
                     <Button className="w-[100px] h-[48px] bg-[#1A2E35] text-[10px]" variant="">Centre d'examen</Button>
@@ -140,7 +140,7 @@ function Home() {
                     <h2 className="text-[#4B4B61] text-center py-6 lg:py-10 text-[20px]  sm:block lg:hidden">Les mieux notés</h2>
 
 
-                    <div className="flex gap-4 items-center border-b-2 border-black">
+                    <div className="flex lg:gap-4 items-center border-b-2 border-black">
                         <Button className="w-[80px] lg:w-[120px] h-[48px] font-bold text-[10px] lg:text-xl rounded" variant="">Hopitaux</Button>
                         <Button className="w-[80px] lg:w-[120px] h-[48px] font-bold text-[10px] lg:text-xl rounded" variant="online">Cliniques</Button>
                         <Button className="w-[80px] lg:w-[120px] h-[48px] font-bold text-[10px] lg:text-xl rounded ml-4" variant="online">Pharmacies</Button>
