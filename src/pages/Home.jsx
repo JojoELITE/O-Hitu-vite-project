@@ -90,14 +90,14 @@ function Home() {
 
                     <div className="lg:py-10 block lg:flex">
                         <div className=" w-[300px] lg:w-[426.04px] flex lg:h-[70px] border-2 text-[16px] gap-0 lg:gap-4" variant="online">
-                            <img className="lg:h-[66px] ml-2 lg:ml-0 bg-white" src="assets/material-symbols-light_search.png" alt="logo"/>
-                            <input className="py-2 px-4 outline-none " type="text" placeholder="Rechercher une structure" />
+                            <img className="lg:h-[66px] px-4 lg:px-0 " src="assets/material-symbols-light_search.png" alt="logo"/>
+                            <input className="py-2 px-4 outline-none bg-[#F2FAFC] " type="text" placeholder="Rechercher une structure" />
 
                         </div>
                         
                         <div className=" flex w-[300px] lg:w-[426.04px] lg:h-[70px] border-2 text-[16px] gap-0 lg:gap-4 mt-1 lg:mt-0 " variant="online">
-                            <img className="lg:h-[44px] sm:block lg:hidden ml-2 lg:ml-0 bg-white" src="assets/fluent_location-20-regular.png" alt="logo"/>
-                            <input className="py-2 px-4 outline-none" type="text" placeholder="Localisation" />
+                            <img className="lg:h-[44px] sm:block lg:hidden px-4 lg:px-0 " src="assets/fluent_location-20-regular.png" alt="logo"/>
+                            <input className="py-2 px-4 outline-none bg-[#F2FAFC]" type="text" placeholder="Localisation" />
                             <img className="lg:h-[44px] lg:block hidden" src="assets/fluent_location-20-regular.png" alt="logo"/>
                         </div>
 
