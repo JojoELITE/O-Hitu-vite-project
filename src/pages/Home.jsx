@@ -163,7 +163,7 @@ function Home() {
 
 
         <Tabs defaultValue="account" className="w-[300px] lg:w-full">
-            <TabsList className="gap-0 lg:gap-4 text-[10px] lg:text-[px] border-b-2 border-black w-full lg:w-full">
+            <TabsList className="gap-0 lg:gap-4 border-b-2 border-black w-[200px] lg:w-full">
                 <TabsTrigger value="account">Hopitaux</TabsTrigger>
                 <TabsTrigger value="cliniques">Cliniques</TabsTrigger>
                 <TabsTrigger value="pharmacies">Pharmacies</TabsTrigger>
@@ -179,7 +179,7 @@ function Home() {
 
                         <div className="py-2 lg:py-6 px-3 flex justify-between border-b-2 border">
                             <div className="">
-                                <h1 className="font-bold text-xl lg:text-2xl">CHUL</h1>
+                                <h1 className="font-bold text-xl lg:text-2xl">CHUllL</h1>
                                 <h6 className="text-[#585858] text-[10px] lg:text-[16px]">Centre Hospitalier Universitaire de Libreville</h6>
                             </div>
 
