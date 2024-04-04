@@ -98,7 +98,7 @@ function Home() {
                         </Button>
 
 
-                        <Button className=" w-[300px] h-[px] border-2 text-[10px] gap-4 bg-black mt-1 lg:hidden" variant="online">
+                        <Button className=" w-[300px] h-[px] border-2 text-[16px] gap-4 bg-black mt-1 lg:hidden" variant="online">
                             <span className="text-center text-white">Rechercher une structure</span>
                             <img className="" src="assets/material-symbols-light_search.png" alt="logo"/>
                         </Button>
