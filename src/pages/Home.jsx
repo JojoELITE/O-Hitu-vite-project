@@ -99,8 +99,8 @@ function Home() {
                     </div>
 
 
-                    <Button variant="online lg:block hidden">
-                        <img className="h-[90px] mt-4" src="assets/Search.png" alt="logo"/>
+                    <Button variant="online ">
+                        <img className="h-[90px] mt-4 lg:block hidden" src="assets/Search.png" alt="logo"/>
                     </Button>
 
                 </div>
