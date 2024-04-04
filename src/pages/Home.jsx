@@ -162,7 +162,7 @@ function Home() {
 
 
 
-        <Tabs defaultValue="account" className="w-[400px] lg:w-full">
+        <Tabs defaultValue="account" className="w-0 lg:w-full">
             <TabsList className="gap-0 lg:gap-4 border-b-2 border-black w-0 lg:w-full">
                 <TabsTrigger value="account">Hopitaux</TabsTrigger>
                 <TabsTrigger value="cliniques">Cliniques</TabsTrigger>
