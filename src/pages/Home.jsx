@@ -54,7 +54,7 @@ function Home() {
 
 
 
-        <div className="py-0 lg:py-48 px-8 lg:px-28 lg:flex justify-between bg-[#F2FAFC]">
+        <div className="py-0 lg:py-48 px-8 lg:px-28 block lg:flex justify-between bg-[#F2FAFC]">
 
             <div>
 
