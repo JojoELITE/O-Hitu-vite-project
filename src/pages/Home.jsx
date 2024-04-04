@@ -162,15 +162,15 @@ function Home() {
 
 
 
-        <Tabs defaultValue="account" className="">
-            <TabsList className="gap-0 lg:gap-10 border-b-2 border-black">
+        <Tabs defaultValue="account" className="w-[400px] lg:w-full">
+            <TabsList className="gap-0 lg:gap-4 border-b-2 border-black w-0 lg:w-full">
                 <TabsTrigger value="account">Hopitaux</TabsTrigger>
                 <TabsTrigger value="cliniques">Cliniques</TabsTrigger>
                 <TabsTrigger value="pharmacies">Pharmacies</TabsTrigger>
                 <TabsTrigger value="pmi">Pmi</TabsTrigger>
-                <TabsTrigger value="...">
-                    <img className="h-4 lg:h-4  ml-6 lg:ml-6" src="assets/ph_caret-up-bold.png" alt="logo"/>
-                </TabsTrigger>
+                <TabsTrigger value="cabinet">Cabinet</TabsTrigger>
+                <TabsTrigger value="centre d'examen">Centre d'examen</TabsTrigger>
+
 
 
             </TabsList>
@@ -240,10 +240,12 @@ function Home() {
 
                         </div>
             </TabsContent>
-            <TabsContent value="cliniques">Change your password here.</TabsContent>
-            <TabsContent value="pharmacies">Change your password here.</TabsContent>
-            <TabsContent value="pmi">Change your password here.</TabsContent>
-            <TabsContent value="...">Change your password here.</TabsContent>
+            <TabsContent value="cliniques">2 Change your password here.</TabsContent>
+            <TabsContent value="pharmacies">3 Change your password here.</TabsContent>
+            <TabsContent value="pmi">4 Change your password here.</TabsContent>
+            <TabsContent value="cabinet">5 Change your password here.</TabsContent>
+            <TabsContent value="centre d'examen">6 Change your password here.</TabsContent>
+
 
         </Tabs>
 
