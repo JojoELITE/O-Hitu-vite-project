@@ -162,14 +162,14 @@ function Home() {
 
 
 
-        <Tabs defaultValue="account" className="w-0 lg:w-full">
+        <Tabs defaultValue="account" className="w-[400px] lg:w-full">
             <TabsList className="gap-0 lg:gap-4 border-b-2 border-black w-0 lg:w-full">
                 <TabsTrigger value="account">Hopitaux</TabsTrigger>
                 <TabsTrigger value="cliniques">Cliniques</TabsTrigger>
                 <TabsTrigger value="pharmacies">Pharmacies</TabsTrigger>
                 <TabsTrigger value="pmi">Pmi</TabsTrigger>
-                <TabsTrigger value="cabinet">Cabinet</TabsTrigger>
-                <TabsTrigger value="centre d'examen">Centre d'examen</TabsTrigger>
+                <TabsTrigger className="lg:block hidden" value="cabinet">Cabinet</TabsTrigger>
+                <TabsTrigger className="lg:block hidden" value="centre d'examen">Centre d'examen</TabsTrigger>
 
 
 
