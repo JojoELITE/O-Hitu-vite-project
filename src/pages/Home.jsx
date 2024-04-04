@@ -83,22 +83,23 @@ function Home() {
 
 
 
-                <div className="flex items-center">
+                <div className=" lg:flex items-center">
 
                     <div className="py-10 flex">
-                        <Button className=" w-[300px] lg:w-[426.04px] lg:h-[80px] border-2 text-[16px] gap-4 sm:bg-white" variant="online">
+                        <Button className=" w-[300px] lg:w-[426.04px] lg:h-[70px] border-2 text-[16px] gap-4 sm:bg-white" variant="online">
                             <img className="lg:h-[66px]" src="assets/material-symbols-light_search.png" alt="logo"/>
                             <span className="mr-10 lg:mr-32 lg:mb-4 text-[#BDBDBD]">Rechercher une structure</span>
                         </Button>
                         
-                        <Button className=" w-[300px] lg:w-[426.04px] lg:h-[80px] border-2 text-[16px] gap-4 mt-1 lg:mt-0 sm:bg-white" variant="online">
-                            <span className=" mr-32 lg:mr-14 lg:mb-4 text-[#BDBDBD]">Localisation</span>
-                            <img className="lg:h-[44px]" src="assets/fluent_location-20-regular.png" alt="logo"/>
+                        <Button className=" w-[300px] lg:w-[426.04px] lg:h-[70px] border-2 text-[16px] gap-4 mt-1 lg:mt-0 sm:bg-white" variant="online">
+                            <img className="lg:h-[44px] sm:block lg:hidden" src="assets/fluent_location-20-regular.png" alt="logo"/>
+                            <span className=" mr-32 lg:mr-52 lg:mb-4 text-[#BDBDBD]">Localisation</span>
+                            <img className="lg:h-[44px] lg:block hidden" src="assets/fluent_location-20-regular.png" alt="logo"/>
                         </Button>
                     </div>
 
 
-                    <Button variant="online">
+                    <Button variant="online lg:block hidden">
                         <img className="h-[90px] mt-4" src="assets/Search.png" alt="logo"/>
                     </Button>
 
