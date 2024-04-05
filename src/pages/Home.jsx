@@ -59,7 +59,7 @@ function Home() {
                         
                         <div className=" flex w-[300px] lg:w-[426.04px] h-10 lg:h-[70px] border-2 text-[16px] mt-1 lg:mt-0 bg-white" variant="online">
                             <Button className="sm:block lg:hidden" variant="online">
-                                <img className="h-10 lg:h-[44px] mb-1" src="assets/fluent_location-20-regular.png" alt="logo"/>
+                                <img className="h-9 lg:h-[44px] mb-1" src="assets/fluent_location-20-regular.png" alt="logo"/>
                             </Button>
                             <Selector/>
                             <Button className="lg:block hidden" variant="online">
