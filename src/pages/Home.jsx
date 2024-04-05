@@ -54,18 +54,19 @@ function Home() {
                     <div className="lg:py-10 block lg:flex">
                         <Button className=" w-[300px] lg:w-[426.04px] lg:h-[70px] border-2 text-[16px] bg-white" variant="online">
                             <img className="lg:h-[66px]" src="assets/material-symbols-light_search.png" alt="logo"/>
-                            <input className="py-2 px-4 outline-none" type="text" placeholder="Rechercher une structure" />
-
+                            <input className="h-40 lg:h-0 py-2 px-4 outline-none" type="text" placeholder="Rechercher une structure" />
                         </Button>
                         
-                        <div className=" flex w-[300px] lg:w-[426.04px] lg:h-[70px] border-2 text-[16px] mt-1 lg:mt-0 bg-white" variant="online">
+                        <div className=" flex w-[280px] lg:w-[426.04px] lg:h-[70px] border-2 text-[16px] mt-1 lg:mt-0 bg-white" variant="online">
                             <Selector/>
-                            <img className="lg:h-[44px] mt-3 ml-20" src="assets/fluent_location-20-regular.png" alt="logo"/>
+                            <Button variant="online">
+                                <img className="lg:h-[44px] mt-6" src="assets/fluent_location-20-regular.png" alt="logo"/>
+                            </Button>
                         </div>
 
 
-                        <Button className=" w-[300px] h-[px] border-2 text-[16px] gap-4 bg-black mt-1 lg:hidden" variant="online">
-                            <span className="text-center text-white">Rechercher une structure</span>
+                        <Button className=" w-[300px] h-[px] border-2 text-[16px] gap-4 bg-black text-center text-white mt-1 lg:hidden" variant="online">
+                            Rechercher une structure
                             <img className="" src="assets/material-symbols-light_search.png" alt="logo"/>
                         </Button>
                     </div>
@@ -119,7 +120,7 @@ function Home() {
                     </form>
 
 
-                    <Tabs defaultValue="account" className="w-[300px] lg:w-full">
+                    <Tabs defaultValue="account" className="w-[320px] lg:w-full">
                         <TabsList className="gap-2 lg:gap-4 border-b-2 border-black w-full lg:w-full">
                             <TabsTrigger value="account">Hopitaux</TabsTrigger>
                             <TabsTrigger value="cliniques">Cliniques</TabsTrigger>
