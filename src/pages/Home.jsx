@@ -1,7 +1,16 @@
 import React from "react";
 import { Button } from "@/components/ui/button"
-import Footer from "./components/Footer";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
+import {
+    Select,
+    SelectContent,
+    SelectItem,
+    SelectTrigger,
+    SelectValue,
+  } from "@/components/ui/select";
+import NavBar from "@/NavBar";
+import Selector from "@/Selector";
+  
 
 
 
@@ -11,53 +20,11 @@ function Home() {
     <div className="block md:hidden lg:block">
 
 
-        <nav className="flex items-center lg:fixed sm:fixed gap-4 lg:gap-0 py-4 lg:py-4 px-8 lg:px-28  bg-[#F2FAFC]">
-
-            <div className="items-center ">
-
-                <img className="sm:py-10 " src="assets/Group_9__5_-removebg-preview 1.png" alt="logo"/>
-
-            </div>
-
-
-            <div className="lg:ml-8">
-                <Button className="text-[16px] gap-4 flex" variant="online">
-                    <img className="h-[40px] lg:h-[66px] mt-2 ml-10 lg:ml-0" src="assets/Search.png" alt="logo"/>
-
-                    <div>
-                        <span className="mb-4 hidden lg:block text-[#BDBDBD]">Rechercher une structure sanitaire</span>
-                    </div>
-                </Button>
-            </div>
-
-
-            <div className="ml-0 lg:ml-[900px]"> 
-                <Button className="gap-2 lg:gap-4 w-[110px] lg:w-[189px] h-[30px] lg:h-[50px]" variant="">            
-                    <img className="sm:h-18" src="assets/ph_star-fill.png" alt="logo"/>
-                    <span className="text-[8px] lg:text-[12px]"> LAISSER UN AVIS</span>
-                </Button>
-            </div>
-
-        </nav>
+       <NavBar/>
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <div className="py-2 lg:py-60 px-8 lg:px-28 block lg:flex justify-between bg-[#F2FAFC]">
+        <div className="py-2 lg:py-12 px-8 lg:px-28 block lg:flex justify-between bg-[#F2FAFC]">
 
             <div>
 
@@ -82,24 +49,19 @@ function Home() {
 
 
 
-
-
-
-
                 <div className="lg:flex items-center">
 
                     <div className="lg:py-10 block lg:flex">
-                        <Button className=" w-[300px] lg:w-[426.04px] lg:h-[70px] border-2 text-[16px] gap-4 bg-white" variant="online">
+                        <Button className=" w-[300px] lg:w-[426.04px] lg:h-[70px] border-2 text-[16px] bg-white" variant="online">
                             <img className="lg:h-[66px]" src="assets/material-symbols-light_search.png" alt="logo"/>
-                            <input className="py-2 px-4" type="text" placeholder="Rechercher une structure" />
+                            <input className="py-2 px-4 outline-none" type="text" placeholder="Rechercher une structure" />
 
                         </Button>
                         
-                        <Button className=" w-[300px] lg:w-[426.04px] lg:h-[70px] border-2 text-[16px] gap-4 mt-1 lg:mt-0 bg-white" variant="online">
-                            <img className="lg:h-[44px] sm:block lg:hidden" src="assets/fluent_location-20-regular.png" alt="logo"/>
-                            <input className="py-2 px-4" type="text" placeholder="Localisation" />
-                            <img className="lg:h-[44px] lg:block hidden" src="assets/fluent_location-20-regular.png" alt="logo"/>
-                        </Button>
+                        <div className=" flex w-[300px] lg:w-[426.04px] lg:h-[70px] border-2 text-[16px] mt-1 lg:mt-0 bg-white" variant="online">
+                            <Selector/>
+                            <img className="lg:h-[44px] mt-3 ml-20" src="assets/fluent_location-20-regular.png" alt="logo"/>
+                        </div>
 
 
                         <Button className=" w-[300px] h-[px] border-2 text-[16px] gap-4 bg-black mt-1 lg:hidden" variant="online">
@@ -117,16 +79,11 @@ function Home() {
 
 
 
-
-
-
-
-
                 <div className="flex gap-4">
-                    <Button className=" w-[100px] lg:w-[141.25px] h-[48px] bg-[#1A2E35] text-[10px] lg:text-0" variant="">Hopital</Button>
-                    <Button className=" w-[100px] lg:w-[141.25px] h-[48px] bg-[#1A2E35] text-[10px] lg:text-0" variant="">Clinique</Button>
-                    <Button className=" w-[100px] lg:w-[141.25px] h-[48px] bg-[#1A2E35] text-[10px] lg:text-0" variant="">Pharmacie</Button>
-                    <Button className=" w-[100px] lg:w-[141.25px] h-[48px] bg-[#1A2E35] lg:block hidden" variant="">PMI</Button>
+                    <Button className=" w-[100px] lg:w-[180px] h-[48px] bg-[#1A2E35] " variant="">Hopital</Button>
+                    <Button className=" w-[100px] lg:w-[180px] h-[48px] bg-[#1A2E35] " variant="">Clinique</Button>
+                    <Button className=" w-[100px] lg:w-[180px] h-[48px] bg-[#1A2E35] " variant="">Pharmacie</Button>
+                    <Button className=" w-[100px] lg:w-[180px] h-[48px] bg-[#1A2E35] lg:block hidden" variant="">PMI</Button>
                 </div>
 
                 <div className="flex lg:hidden gap-4 mt-4">
@@ -140,116 +97,114 @@ function Home() {
 
 
 
-
-
-
-
-
-
-
-
-
-
             <div className="mt-10 lg:mt-0">
 
                 <div className="h-[430px] lg:h-[560px] bg-white rounded-b-lg shadow-lg"> 
-                    <h2 className="text-[#4B4B61] text-center py-10 text-[20px] lg:block hidden">Filtrez: Les mieux notés</h2>
-                    <h2 className="text-[#4B4B61] text-center py-6 lg:py-10 text-[20px]  sm:block lg:hidden">Les mieux notés</h2>
+
+
+                    <form class="flex gap-4 flex justify-center py-10 ">
+                        <label for="" class="block mt-2 text-xl text-[#4B4B61] dark:text-white ">Filtrez :</label>
+                     
+
+                        <Select className="" >
+                            <SelectTrigger className="w-[180px]">
+                                <SelectValue placeholder="" />
+                            </SelectTrigger>
+                            <SelectContent className="text-[#4B4B61] rounded-lg bg-white ">
+                                <SelectItem value="mieux">Les mieux notés</SelectItem>
+                                <SelectItem value="moins">Les moins notés</SelectItem>
+                            </SelectContent>
+                        </Select>
+
+                    </form>
+
+
+                    <Tabs defaultValue="account" className="w-[300px] lg:w-full">
+                        <TabsList className="gap-2 lg:gap-4 border-b-2 border-black w-full lg:w-full">
+                            <TabsTrigger value="account">Hopitaux</TabsTrigger>
+                            <TabsTrigger value="cliniques">Cliniques</TabsTrigger>
+                            <TabsTrigger value="pharmacies">Pharmacies</TabsTrigger>
+                            <TabsTrigger value="pmi">Pmi</TabsTrigger>
+                            <TabsTrigger className="lg:block hidden" value="cabinet">Cabinet</TabsTrigger>
+                            <TabsTrigger className="lg:block hidden" value="centre d'examen">Centre d'examen</TabsTrigger>
 
 
 
+                        </TabsList>
+                        <TabsContent value="account">
 
 
+                                    <div className="py-2 lg:py-6 px-3 flex justify-between border-b-2 border">
+                                        <div className="">
+                                            <h1 className="font-bold text-xl lg:text-2xl">CHUL</h1>
+                                            <h6 className="text-[#585858] text-[10px] lg:text-[16px]">Centre Hospitalier Universitaire de Libreville</h6>
+                                        </div>
+
+                                        <div className="flex mr-3 gap-4 mt-5 lg:mt-3">
+                                            <img className="h-2.5 lg:h-5 mt-2 lg:mt-1" src="assets/Vector.png" alt="logo"/>
+                                            <h1 className="font-bold text-xl lg:text-2xl">4,5</h1>
+                                            <img className="h-3 lg:h-6 mt-2 lg:mt-1" src="assets/ph_star-fill.png" alt="logo"/>
+
+                                        </div>
+
+                                    </div>
 
 
+                                    <div className="py-2 lg:py-4 px-3 flex justify-between border-b-2 border">
+                                        <div className="">
+                                            <h1 className="font-bold text-xl lg:text-2xl">CHUO</h1>
+                                            <h6 className="text-[#585858] text-[10px] lg:text-[16px]">Centre Hospitalier Universitaire d’Owendo</h6>
+                                        </div>
+
+                                        <div className="flex mr-3 gap-4 mt-5 lg:mt-3">
+                                            <img className="h-2.5 lg:h-5 mt-2 lg:mt-1" src="assets/Vector.png" alt="logo"/>
+                                            <h1 className="font-bold text-xl lg:text-2xl">4,5</h1>
+                                            <img className="h-3 lg:h-6 mt-2 lg:mt-1" src="assets/ph_star-fill.png" alt="logo"/>
+
+                                        </div>
+
+                                    </div>
 
 
-        <Tabs defaultValue="account" className="w-[300px] lg:w-full">
-            <TabsList className="gap-2 lg:gap-4 border-b-2 border-black w-full lg:w-full">
-                <TabsTrigger value="account">Hopitaux</TabsTrigger>
-                <TabsTrigger value="cliniques">Cliniques</TabsTrigger>
-                <TabsTrigger value="pharmacies">Pharmacies</TabsTrigger>
-                <TabsTrigger value="pmi">Pmi</TabsTrigger>
-                <TabsTrigger className="lg:block hidden" value="cabinet">Cabinet</TabsTrigger>
-                <TabsTrigger className="lg:block hidden" value="centre d'examen">Centre d'examen</TabsTrigger>
+                                    <div className="py-2 lg:py-4 px-3 flex justify-between border-b-2 border">
+                                        <div className="">
+                                            <h1 className="font-bold text-xl lg:text-2xl">CHUA</h1>
+                                            <h6 className="text-[#585858] text-[10px] lg:text-[16px]">Centre Hospitalier Universitaire d’Akanda</h6>
+                                        </div>
+
+                                        <div className="flex mr-3 gap-4 mt-4 lg:mt-3">
+                                            <img className="h-2.5 lg:h-5 mt-3 lg:mt-2" src="assets/Vector Rouge.png" alt="logo"/>
+                                            <h1 className="font-bold text-xl lg:text-2xl">2,5</h1>
+                                            <img className="h-3 lg:h-6 mt-2 lg:mt-1" src="assets/ph_star-fill.png" alt="logo"/>
+
+                                        </div>
+
+                                    </div>
 
 
+                                    <div className="py-2 lg:py-4 px-3 flex justify-between">
+                                        <div className="">
+                                            <h1 className="font-bold text-xl lg:text-2xl">NTENGUE</h1>
+                                            <h6 className="text-[#585858] text-[10px] lg:text-[16px]">Hôpital Régional de Ntengue</h6>
+                                        </div>
 
-            </TabsList>
-            <TabsContent value="account">
+                                        <div className="flex mr-3 gap-4 mt-4 lg:mt-3 items-center">
+                                            <img className="h-2.5 lg:h-5 mt-2 lg:mt-1 mr-4" src="assets/Vector Rouge.png" alt="logo"/>
+                                            <h1 className="font-bold text-xl lg:text-2xl">1</h1>
+                                            <img className="h-3 lg:h-6 mt-0 lg:mt-0" src="assets/ph_star-fill.png" alt="logo"/>
 
+                                        </div>
 
-                        <div className="py-2 lg:py-6 px-3 flex justify-between border-b-2 border">
-                            <div className="">
-                                <h1 className="font-bold text-xl lg:text-2xl">CHUL</h1>
-                                <h6 className="text-[#585858] text-[10px] lg:text-[16px]">Centre Hospitalier Universitaire de Libreville</h6>
-                            </div>
-
-                            <div className="flex mr-3 gap-4 mt-5 lg:mt-3">
-                                <img className="h-2.5 lg:h-5 mt-2 lg:mt-1" src="assets/Vector.png" alt="logo"/>
-                                <h1 className="font-bold text-xl lg:text-2xl">4,5</h1>
-                                <img className="h-3 lg:h-6 mt-2 lg:mt-1" src="assets/ph_star-fill.png" alt="logo"/>
-
-                            </div>
-
-                        </div>
-
-
-                        <div className="py-2 lg:py-4 px-3 flex justify-between border-b-2 border">
-                            <div className="">
-                                <h1 className="font-bold text-xl lg:text-2xl">CHUO</h1>
-                                <h6 className="text-[#585858] text-[10px] lg:text-[16px]">Centre Hospitalier Universitaire d’Owendo</h6>
-                            </div>
-
-                            <div className="flex mr-3 gap-4 mt-5 lg:mt-3">
-                                <img className="h-2.5 lg:h-5 mt-2 lg:mt-1" src="assets/Vector.png" alt="logo"/>
-                                <h1 className="font-bold text-xl lg:text-2xl">4,5</h1>
-                                <img className="h-3 lg:h-6 mt-2 lg:mt-1" src="assets/ph_star-fill.png" alt="logo"/>
-
-                            </div>
-
-                        </div>
+                                    </div>
+                        </TabsContent>
+                        <TabsContent value="cliniques">2 Change your password here.</TabsContent>
+                        <TabsContent value="pharmacies">3 Change your password here.</TabsContent>
+                        <TabsContent value="pmi">4 Change your password here.</TabsContent>
+                        <TabsContent value="cabinet">5 Change your password here.</TabsContent>
+                        <TabsContent value="centre d'examen">6 Change your password here.</TabsContent>
 
 
-                        <div className="py-2 lg:py-4 px-3 flex justify-between border-b-2 border">
-                            <div className="">
-                                <h1 className="font-bold text-xl lg:text-2xl">CHUA</h1>
-                                <h6 className="text-[#585858] text-[10px] lg:text-[16px]">Centre Hospitalier Universitaire d’Akanda</h6>
-                            </div>
-
-                            <div className="flex mr-3 gap-4 mt-4 lg:mt-3">
-                                <img className="h-2.5 lg:h-5 mt-3 lg:mt-2" src="assets/Vector Rouge.png" alt="logo"/>
-                                <h1 className="font-bold text-xl lg:text-2xl">2,5</h1>
-                                <img className="h-3 lg:h-6 mt-2 lg:mt-1" src="assets/ph_star-fill.png" alt="logo"/>
-
-                            </div>
-
-                        </div>
-
-
-                        <div className="py-2 lg:py-4 px-3 flex justify-between">
-                            <div className="">
-                                <h1 className="font-bold text-xl lg:text-2xl">NTENGUE</h1>
-                                <h6 className="text-[#585858] text-[10px] lg:text-[16px]">Hôpital Régional de Ntengue</h6>
-                            </div>
-
-                            <div className="flex mr-3 gap-4 mt-4 lg:mt-3 items-center">
-                                <img className="h-2.5 lg:h-5 mt-2 lg:mt-1 mr-4" src="assets/Vector Rouge.png" alt="logo"/>
-                                <h1 className="font-bold text-xl lg:text-2xl">1</h1>
-                                <img className="h-3 lg:h-6 mt-0 lg:mt-0" src="assets/ph_star-fill.png" alt="logo"/>
-
-                            </div>
-
-                        </div>
-            </TabsContent>
-            <TabsContent value="cliniques">2 Change your password here.</TabsContent>
-            <TabsContent value="pharmacies">3 Change your password here.</TabsContent>
-            <TabsContent value="pmi">4 Change your password here.</TabsContent>
-            <TabsContent value="cabinet">5 Change your password here.</TabsContent>
-            <TabsContent value="centre d'examen">6 Change your password here.</TabsContent>
-
-
-        </Tabs>
+                    </Tabs>
 
 
 
@@ -266,33 +221,7 @@ function Home() {
             </div>
         </div>
 
-
-
-
         <div className=" bg-[#F2FAFC] h-20 sm:block lg:hidden"></div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -343,12 +272,103 @@ function Home() {
             </div>
         </div>
 
-        <Footer/>
+
+        <footer className="bg-black flex hidden lg:flex">
+
+            <div className="flex py-12 px-28 gap-60">
+                
+                <div className="">
+                    <div>
+                        <img src="assets/Group_9__6_-removebg-preview 1.png" alt="logo"/>
+                    </div>
+                </div>
+
+                
+                <div className="text-white">
+                    <div>                    
+                        <a href="#">Qui sommes-nous ?</a>
+                    </div>
+
+                    <div className="mt-6">                    
+                        <a href="#">Presse</a>
+                    </div>
+
+                    <div className="mt-6">
+                        <a href="#">Mentions légales</a>
+                    </div>
+
+                </div>
+            </div>
 
 
+            <div className="flex py-12 px-28 gap-60">
+                <div className="text-white">
+
+                    <div>
+                        <a href="#">Conditions générales d'utilisation</a>
+                    </div>
+
+                    <div className="mt-6">
+                        <a href="#">Politique de confidentialité</a>
+                    </div>
+
+                </div>
+
+
+                <div>
+                    <h6 className="text-sm text-[#9E4141]">Contactez-nous :</h6>
+
+                    <div className="mt-3">
+                        <a className="text-white " href="#">contact@cnx4-0.com</a>
+                    </div>
+
+                    <h6 className="text-sm text-[#9E4141] mt-5">Suivez-nous sur les réseaux</h6>
+
+
+                    <div className="flex gap-3 items-center mt-3">
+
+                        <div>
+                            <a href="#">
+                                <img className="" src="assets/fa Icon.png" alt="logo"/>
+                            </a>
+                        </div>
+                        
+
+                        <div>
+                            <a href="#">
+                                <img className="" src="assets/Twitter Vector.png" alt="logo"/>
+                            </a>
+                        </div> 
+                        
+                        
+                        <div>
+                            <a href="#">
+                                <img className="" src="assets/in Vector (1).png" alt="logo"/>
+                            </a>
+                        </div>
+                        
+                    
+                    </div>
+
+                </div>
+            </div>
+
+        </footer>
+
+
+        <div className="bg-black p-6 hidden lg:block">
+            <h1 className="font-bold text-white text-center">© 2024 - CONNEXIONS 4.0</h1>
+        </div>
 
     </div>
+
   )
 }
 
 export default Home;
+
+
+
+
+
+
