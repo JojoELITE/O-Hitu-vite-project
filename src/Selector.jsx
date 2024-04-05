@@ -19,7 +19,7 @@ const Selector = () => {
     <div className=" font-medium sticky top-0">
       <div
         onClick={() => setOpen(!open)}
-        className={`ml-20 lg:ml-8 py-2 lg:py-6 flex items-center justify-between rounded ${
+        className={`ml-[18px] lg:ml-8 py-2 lg:py-6 flex items-center justify-between rounded ${
           !selected && "text-[#BDBDBD]"
         }`}
       >
