@@ -58,8 +58,8 @@ function Home() {
                         </Button>
                         
                         <div className=" flex w-[300px] lg:w-[426.04px] h-10 lg:h-[70px] border-2 text-[16px] mt-1 lg:mt-0 bg-white" variant="online">
-                            <Button className="sm:block lg:hidden h-[44px]" variant="online">
-                                <img className="lg:h-[44px] mt-6" src="assets/fluent_location-20-regular.png" alt="logo"/>
+                            <Button className="sm:block lg:hidden h-[44px] " variant="online">
+                                <img className="h-8 lg:h-[44px] " src="assets/fluent_location-20-regular.png" alt="logo"/>
                             </Button>
                             <Selector/>
                             <Button className="lg:block hidden" variant="online">
@@ -123,7 +123,7 @@ function Home() {
                     </form>
 
 
-                    <Tabs defaultValue="account" className="w-[320px] lg:w-full">
+                    <Tabs defaultValue="account" className="w-[300px] lg:w-full">
                         <TabsList className="gap-2 lg:gap-4 border-b-2 border-black w-full lg:w-full">
                             <TabsTrigger value="account">Hopitaux</TabsTrigger>
                             <TabsTrigger value="cliniques">Cliniques</TabsTrigger>
