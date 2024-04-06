@@ -31,7 +31,7 @@ const Selector = () => {
         <BiChevronDown size={20} className={`${open && "rotate-180"}`} />
       </div>
       <ul
-        className={`bg-white  px-10 overflow-y-auto ${
+        className={`bg-white  px-8 overflow-y-auto ${
           open ? "max-h-60" : "max-h-0"
         } `}
       >

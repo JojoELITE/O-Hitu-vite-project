@@ -22,7 +22,7 @@ function Search() {
                     </Button>
                     <Selector/>
                     <Button className="lg:block hidden" variant="online">
-                        <img className="lg:h-[44px] mt-1 ml-8" src="assets/fluent_location-20-regular.png" alt="logo"/>
+                        <img className="lg:h-[44px] mt-1 ml-3" src="assets/fluent_location-20-regular.png" alt="logo"/>
                     </Button>
                 </div>
 
