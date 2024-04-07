@@ -34,9 +34,12 @@ function Search() {
             </div>
 
 
-            <Button variant="online ">
-                <img className="h-[90px] mt-4 lg:block hidden" src="assets/Search.png" alt="logo"/>
-            </Button>
+            <a className="mt-8" href="resultat">
+                <Button variant="online ">
+                    <img className="h-[90px] mt-4 lg:block hidden" src="assets/Search.png" alt="logo"/>
+                </Button>
+            </a>
+       
 
         </div>
 

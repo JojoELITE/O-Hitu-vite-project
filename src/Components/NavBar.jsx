@@ -10,13 +10,16 @@ function NavBar() {
         <nav className="flex items-center sticky top-0 gap-4 lg:gap-0 py-4 lg:py-4 px-8 lg:px-28  bg-[#F2FAFC]">
 
             <div className="items-center ">
-
-                <img className="sm:py-10 " src="assets/Group_9__5_-removebg-preview 1.png" alt="logo"/>
+                <a className="" href="http://localhost:5173/">
+                    <img className="sm:py-10 " src="assets/Group_9__5_-removebg-preview 1.png" alt="logo"/>
+                </a>
 
             </div>
 
 
             <div className="lg:ml-8">
+
+
                 <Button className="text-[16px] gap-4 flex" variant="online">
                     <img className="h-[40px] lg:h-[66px] mt-2 ml-10 lg:ml-0" src="assets/Search.png" alt="logo"/>
 

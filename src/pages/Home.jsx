@@ -5,6 +5,7 @@ import Tableau from "@/Components/Tableau";
 import Search from "@/Components/Search";
 import Footer from "@/Components/Footer";
 
+  
 
 function Home() {
 
@@ -103,7 +104,6 @@ function Home() {
 
 
         <Footer/>
-
 
     </div>
 
