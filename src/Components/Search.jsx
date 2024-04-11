@@ -6,7 +6,7 @@ import { Button } from "@/components/ui/button"
 function Search() {
 
   return (
-    <>
+    <div className="">
 
         <div className="lg:flex items-center">
 
@@ -58,7 +58,7 @@ function Search() {
             <Button className="w-[100px] h-[48px] bg-[#1A2E35] text-[10px] lg:text-0" variant="">Centre d'examen</Button>
         </div>
 
-    </>
+    </div>
   )
 }
 
