@@ -50,9 +50,7 @@ function LaisserAvis() {
 
                                             <img className="ml-[28%] py-10" src="assets/Line 12.png" alt="logo" />
 
-                                            <a href="soin">
-                                                <Button variant="outlined" className="hover:text-[#D83D40] text-center text-xl">Comment évaluez<br />vous la qualité de<br /> soin ? </Button>
-                                            </a>
+                                            <Button variant="outlined" className="hover:text-[#D83D40] text-center text-xl">Comment évaluez<br />vous la qualité de<br /> soin ? </Button>
 
                                             <img className="ml-[28%] py-10" src="assets/Line 12.png" alt="logo" />
 

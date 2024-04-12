@@ -7,6 +7,7 @@ import {
     SelectTrigger,
     SelectValue,
   } from "@/components/ui/select";
+  import { Link } from "react-router-dom";
 
 function Tableau() {
 
@@ -128,9 +129,9 @@ function Tableau() {
 
         <div className="lg:py-4 mt-3 lg:mt-0">
 
-            <a className="" href="#">
+            <Link className="" to="#">
                 <span className="text-[#DB4C4C] px-14 lg:px-44 text-[16px] lg:text-[20px] underline">Afficher plus de structure</span>
-            </a>
+            </Link>
 
         </div>
 

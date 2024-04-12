@@ -83,9 +83,9 @@ function Detail() {
 
                           <img className="ml-[28%] py-10" src="assets/Line 12.png" alt="logo" />
 
-                          <a href="soin">
+                          <Link to="soin">
                             <Button variant="outlined" className="hover:text-[#D83D40] text-center text-xl">Comment évaluez<br />vous la qualité de<br /> soin ? </Button>
-                          </a>
+                          </Link>
 
                           <img className="ml-[28%] py-10" src="assets/Line 12.png" alt="logo" />
 
@@ -160,11 +160,11 @@ function Detail() {
             </div>
 
             <div className="">
-              <a className="mt-8" href="partager">
+              <Link className="mt-8" to="partager">
                 <Button className=" w-[100px] lg:w-[200px] h-[48px] bg-white gap-2 text-black" variant="online">
                   <img className="h-8 mt-1" src="assets/share.png" alt="logo" />
                   Partager cette page</Button>
-              </a>
+              </Link>
             </div>
           </div>
 

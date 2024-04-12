@@ -9,6 +9,7 @@ import {
     AlertDialogHeader,
     AlertDialogTrigger,
 } from "@/components/ui/alert-dialog"
+import { Link } from "react-router-dom"
 
 
 
@@ -30,7 +31,7 @@ function Auth() {
                                 <div className="flex justify-end gap-4 items-center">
                                     <div className="">
                                         En laissant un avis sur O’hitu vous acceptez nos
-                                        <span className="font-bold"> Politique de confidentialité</span>
+                                        <Link to className="font-bold"> Politique de confidentialité</Link>
                                     </div>
 
                                     <AlertDialogCancel className="text-4xl mb-4 text-center rounded-full w-20 h-20 text-white bg-black">
