@@ -1,6 +1,7 @@
 import React from "react"
 import Selector from "./Selector";
 import { Button } from "@/components/ui/button"
+import { Link } from "react-router-dom";
 
 
 function Search() {
@@ -34,11 +35,12 @@ function Search() {
             </div>
 
 
-            <a className="mt-8" href="resultat">
+            <Link to="/resultat">
+
                 <Button variant="online ">
                     <img className="h-[90px] mt-4 lg:block hidden" src="assets/Search.png" alt="logo"/>
                 </Button>
-            </a>
+            </Link>
        
 
         </div>
