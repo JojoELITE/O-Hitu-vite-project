@@ -1,4 +1,5 @@
 import React from "react"
+import { Link } from "react-router-dom";
 
 function Footer() {
 
@@ -18,15 +19,15 @@ function Footer() {
                 
                 <div className="text-white">
                     <div>                    
-                        <a href="#">Qui sommes-nous ?</a>
+                        <Link to="#">Qui sommes-nous ?</Link>
                     </div>
 
                     <div className="mt-6">                    
-                        <a href="#">Presse</a>
+                        <Link to="#">Presse</Link>
                     </div>
 
                     <div className="mt-6">
-                        <a href="#">Mentions légales</a>
+                        <Link to="#">Mentions légales</Link>
                     </div>
 
                 </div>
@@ -37,11 +38,11 @@ function Footer() {
                 <div className="text-white">
 
                     <div>
-                        <a href="#">Conditions générales d'utilisation</a>
+                        <Link to="#">Conditions générales d'utilisation</Link>
                     </div>
 
                     <div className="mt-6">
-                        <a href="#">Politique de confidentialité</a>
+                        <Link to="#">Politique de confidentialité</Link>
                     </div>
 
                 </div>
@@ -51,7 +52,7 @@ function Footer() {
                     <h6 className="text-sm text-[#9E4141]">Contactez-nous :</h6>
 
                     <div className="mt-3">
-                        <a className="text-white " href="#">contact@cnx4-0.com</a>
+                        <Link className="text-white " to="#">contact@cnx4-0.com</Link>
                     </div>
 
                     <h6 className="text-sm text-[#9E4141] mt-5">Suivez-nous sur les réseaux</h6>
@@ -60,23 +61,23 @@ function Footer() {
                     <div className="flex gap-3 items-center mt-3">
 
                         <div>
-                            <a href="#">
+                            <Link to="#">
                                 <img className="" src="assets/fa Icon.png" alt="logo"/>
-                            </a>
+                            </Link>
                         </div>
                         
 
                         <div>
-                            <a href="#">
+                            <Link to="#">
                                 <img className="" src="assets/Twitter Vector.png" alt="logo"/>
-                            </a>
+                            </Link>
                         </div> 
                         
                         
                         <div>
-                            <a href="#">
+                            <Link to="#">
                                 <img className="" src="assets/in Vector (1).png" alt="logo"/>
-                            </a>
+                            </Link>
                         </div>
                         
                     
