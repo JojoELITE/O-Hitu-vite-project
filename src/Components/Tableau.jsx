@@ -19,7 +19,7 @@ function Tableau() {
 
 
             <form class="flex gap-4 flex justify-center py-10 ">
-                <label for="" class="block mt-2 text-xl text-[#4B4B61] dark:text-white ">Filtrez :</label>
+                <label for="" class="block mt-2 text-xl text-[#4B4B61] dark:text-white  ">Filtrez :</label>
             
 
                 <Select className="" >
