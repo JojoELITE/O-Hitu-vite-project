@@ -16,7 +16,7 @@ function Tableau() {
 
         <div className="mt-10 lg:mt-0">
 
-        <div className="h-[430px] lg:h-[560px] bg-white rounded-b-lg shadow-lg"> 
+        <div className="h-[470px] lg:h-[560px] bg-white rounded-b-lg shadow-lg"> 
 
 
             <form class="flex gap-4 flex justify-center py-10 ">
