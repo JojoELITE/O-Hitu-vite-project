@@ -25,6 +25,7 @@ import {
     DropdownMenuTrigger,
 } from "@/components/ui/dropdown-menu"
 import Search from "./Search"
+import { Link } from "react-router-dom"
 
 
 
@@ -36,9 +37,9 @@ function NavBar() {
             <nav className="flex items-center sticky top-0 gap-4 lg:gap-0 py-4 lg:py-4 px-8 lg:px-28  bg-[#F2FAFC]">
 
                 <div className="items-center ">
-                    <a className="" href="http://localhost:5173/">
+                    <Link className="" to="https://o-hitu-vite-project.vercel.app/">
                         <img className="sm:py-10 " src="assets/Group_9__5_-removebg-preview 1.png" alt="logo" />
-                    </a>
+                    </Link>
 
                 </div>
 

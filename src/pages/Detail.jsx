@@ -19,6 +19,7 @@ import {
 import Footer from "@/Components/Footer";
 import SearchDeux from "@/Components/SearchDeux";
 
+
 function Detail() {
 
   return (

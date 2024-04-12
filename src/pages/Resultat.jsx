@@ -10,16 +10,6 @@ import {
 import NavBar from "@/Components/NavBar";
 import Footer from "@/Components/Footer";
 import Tableau from "@/Components/Tableau";
-import {
-  AlertDialog,
-  AlertDialogAction,
-  AlertDialogCancel,
-  AlertDialogContent,
-  AlertDialogFooter,
-  AlertDialogHeader,
-  AlertDialogTrigger,
-} from "@/components/ui/alert-dialog"
-import { Link } from "react-router-dom";
 import DeuxBurtton from "@/Components/DeuxBurtton";
 
 
