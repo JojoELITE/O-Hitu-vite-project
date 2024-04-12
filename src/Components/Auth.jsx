@@ -115,8 +115,6 @@ function Auth() {
                                 </div>
 
 
-
-
                             </AlertDialogHeader>
 
                         </AlertDialogContent>

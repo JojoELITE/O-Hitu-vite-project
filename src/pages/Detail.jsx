@@ -58,19 +58,19 @@ function Detail() {
                 <img className="h-8" src="assets/smile.png" alt="logo" />
 
                 <AlertDialog className="">
-                  <AlertDialogTrigger>Donner son avis</AlertDialogTrigger>
+                  <AlertDialogTrigger>LAISSER UN AVIS</AlertDialogTrigger>
                   <AlertDialogContent>
                     <AlertDialogHeader>
 
                       <div className="flex justify-end gap-4 items-center">
                         <div className="">
                           En laissant un avis sur O’hitu vous acceptez nos
-                          <a href>
-                            <span className="font-bold"> Politique de confidentialité</span>
-                          </a>
+                          <span className="font-bold"> Politique de confidentialité</span>
                         </div>
 
-                        <img className="h-" src="assets/fermer.png" alt="logo" />
+                        <AlertDialogCancel className="text-4xl mb-4 text-center rounded-full w-20 h-20 text-white bg-black">
+                          x
+                        </AlertDialogCancel>
 
                       </div>
 
@@ -83,8 +83,9 @@ function Detail() {
 
                           <img className="ml-[28%] py-10" src="assets/Line 12.png" alt="logo" />
 
-
-                          <Button variant="outlined" className="hover:text-[#D83D40] text-center text-xl">Comment évaluez<br />vous la qualité de<br /> soin ? </Button>
+                          <a href="soin">
+                            <Button variant="outlined" className="hover:text-[#D83D40] text-center text-xl">Comment évaluez<br />vous la qualité de<br /> soin ? </Button>
+                          </a>
 
                           <img className="ml-[28%] py-10" src="assets/Line 12.png" alt="logo" />
 
@@ -149,22 +150,8 @@ function Detail() {
                       </div>
 
 
-
-
                     </AlertDialogHeader>
 
-
-                    <AlertDialogFooter className="mr-[40%]">
-
-
-                      <AlertDialogCancel>Cancel</AlertDialogCancel>
-
-                      <a className="" href="#">
-                        <AlertDialogAction>Continue</AlertDialogAction>
-                      </a>
-
-
-                    </AlertDialogFooter>
                   </AlertDialogContent>
                 </AlertDialog>
 

@@ -45,8 +45,6 @@ function Search() {
 
         </div>
 
-
-
         <div className="flex gap-4">
             <Button className=" w-[100px] lg:w-[180px] h-[48px] bg-[#1A2E35] " variant="">Hopital</Button>
             <Button className=" w-[100px] lg:w-[180px] h-[48px] bg-[#1A2E35] " variant="">Clinique</Button>
