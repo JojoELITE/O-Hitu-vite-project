@@ -17,7 +17,7 @@ import {
   AccordionTrigger,
 } from "@/components/ui/accordion"
 import Footer from "@/Components/Footer";
-import SearchDeux from "@/Components/SearchDeux";
+import NavBar from "@/Components/NavBar"
 
 
 function Detail() {
@@ -25,7 +25,7 @@ function Detail() {
   return (
     <div className=" bg-[#F2FAFC]">
 
-      <SearchDeux />
+      <NavBar />
 
 
       <div className="bg-black flex justify-between px-28 py-12">
