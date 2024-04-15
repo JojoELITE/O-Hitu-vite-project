@@ -18,6 +18,7 @@ import {
 } from "@/components/ui/accordion"
 import Footer from "@/Components/Footer";
 import NavBar from "@/Components/NavBar"
+import { Link } from "react-router-dom"
 
 
 function Detail() {

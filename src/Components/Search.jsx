@@ -11,8 +11,8 @@ function Search() {
 
         <div className="lg:flex items-center">
 
-            <div className="lg:py-10 block lg:flex">
-                <Button className=" w-[300px] lg:w-[426.04px] lg:h-[70px] border-2 text-[16px] bg-white" variant="online">
+            <div className="lg:py-10 block lg:flex ">
+                <Button className="  w-[300px] lg:w-[426.04px] lg:h-[70px] border-2 text-[16px] bg-white" variant="online">
                     <img className="lg:h-[66px]" src="assets/material-symbols-light_search.png" alt="logo"/>
                     <input className="h-8 lg:h-0 py-2 px-4 outline-none" type="text" placeholder="Rechercher une structure" />
                 </Button>
@@ -28,7 +28,7 @@ function Search() {
                 </div>
 
 
-                <Button className=" w-[300px] h-[px] border-2 text-[16px] gap-4 bg-black text-center text-white mt-1 lg:hidden" variant="online">
+                <Button className=" w-[300px] h-[px] border-2 text-[16px] gap-4 text-center text-white mt-1 lg:hidden" variant="">
                     Rechercher une structure
                     <img className="" src="assets/material-symbols-light_search.png" alt="logo"/>
                 </Button>
