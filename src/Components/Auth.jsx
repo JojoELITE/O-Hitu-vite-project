@@ -125,18 +125,18 @@ function Auth() {
 
 
 
-            <div className="block lg:hidden ">
+            <div className="block lg:hidden">
 
                 <Button className="gap-1" variant="">
                     <img className="" src="assets/ph_star-fill.png" alt="logo" />
 
                     <AlertDialog className="">
-                        <AlertDialogTrigger className="text-[8px] lg:text-[16px]">LAISSER UN AVIS</AlertDialogTrigger>
+                        <AlertDialogTrigger className="text-[8px] lg:text-[16px] ">LAISSER UN AVIS</AlertDialogTrigger>
 
                         <AlertDialogContent className="">
                             <AlertDialogHeader>
 
-                                <div className="flex  items-center gap-2">
+                                <div className="flex justify-center  items-center gap-2">
 
                                     <div className="">
                                         Laisser votre avis
@@ -196,8 +196,8 @@ function Auth() {
                                     </div>
 
 
-                                    <div className="lg:block hidden">
-                                        En laissant un avis sur O’hitu vous acceptez nos
+                                    <div className="block lg:hidden text-sm py-8">
+                                        En laissant un avis sur O’hitu vous acceptez nos<br/>
                                         <Link to className="font-bold"> Politique de confidentialité</Link>
                                     </div>
 
