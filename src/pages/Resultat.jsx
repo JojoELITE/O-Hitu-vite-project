@@ -30,7 +30,7 @@ function Resultat() {
 
 
       <div className="mt-6 px-8 lg:px-28 block lg:flex justify-between">
-        <div className="flex gap-10 lg:gap-2 text-[#BDBDBD]">
+        <div className="flex gap-4 lg:gap-2 text-[#BDBDBD]">
           <Button className=" w-[100px] lg:w-[180px] h-[48px]  flex gap-2 rounded-full border-2 hover:border-gray-400  " variant="online">Tous le filtres
             <img className="sm:h-18" src="assets/filtre.png" alt="logo" />
           </Button>
@@ -48,7 +48,7 @@ function Resultat() {
 
 
             <Select className="" >
-              <SelectTrigger className="w-[180px]">
+              <SelectTrigger className="w-[100px] lg:w-[180px]">
                 <SelectValue placeholder="" />
               </SelectTrigger>
               <SelectContent className="text-[#4B4B61] rounded-lg bg-white ">
