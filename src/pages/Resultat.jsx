@@ -72,16 +72,16 @@ function Resultat() {
 
 
 
-      <div className="px-8 lg:px-28 py-12 flex justify-between ">
+      <div className="px-8 lg:px-28 py-0 lg:py-12 flex justify-between ">
 
         <div>
 
           <div>
 
-            <div className="block lg:flex items-center bg-white w-[420px] lg:w-[900px] h-[px] lg:h-[230px] gap-20 ">
+            <div className="block lg:flex items-center bg-white w-[400px] lg:w-[900px] h-[px] lg:h-[230px] gap-20 ">
 
               <div>
-                <img className="sm:py-10 ml-8 mt-6  lg:block hidden" src="assets/chul.png" alt="logo" />
+                <img className="py-10 ml-8 mt-6 lg:block hidden" src="assets/chul.png" alt="logo" />
               </div>
 
 
@@ -354,19 +354,22 @@ function Resultat() {
         </div>
 
 
-        <div>
-          <Tableau />
+        <div className="lg:block hidden">
+
+          <div className="">
+            <Tableau />
+          </div>
 
           <img className="sm:py-10 w-[500px]" src="assets/bucket.png" alt="logo" />
-
 
         </div>
 
 
       </div>
 
-
-      <Footer />
+      <div className="lg:block hidden">
+        <Footer />
+      </div>
 
     </div>
   )

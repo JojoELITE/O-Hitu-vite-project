@@ -17,7 +17,7 @@ function Search() {
                     <input className=" h-8 lg:h-0 py-2 px-4 outline-none" type="text" placeholder="Rechercher une structure" />
                 </Button>
                 
-                <div className=" flex  w-[300px] lg:w-[426.04px] h-10 lg:h-[70px] border-2 text-[16px] mt-1 lg:mt-0 bg-white" variant="online">
+                <div className=" flex  w-[300px] lg:w-[426.04px] h-10 lg:h-[70px] border-2 text-[16px] bg-white" variant="online">
                     <Button className="sm:block lg:hidden" variant="online">
                         <img className="h-9 lg:h-[44px] lg:mb-1" src="assets/fluent_location-20-regular.png" alt="logo"/>
                     </Button>
