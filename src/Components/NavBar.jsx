@@ -35,6 +35,7 @@ function NavBar() {
 
                             <Button className="text-[16px] gap-4 flex" variant="online">
                                 <img className="h-[45px] lg:h-[66px] mb-8 lg:mb-0 ml-8 lg:ml-0" src="assets/Search.png" alt="logo" />
+                                
 
                                 <div>
                                     <span className="mb-4 hidden lg:block text-[#BDBDBD]">Rechercher une structure sanitaire</span>
