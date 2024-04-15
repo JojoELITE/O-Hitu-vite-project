@@ -30,8 +30,8 @@ function Resultat() {
 
 
       <div className="mt-6 px-8 lg:px-28 block lg:flex justify-between">
-        <div className="flex gap-4 lg:gap-2 text-[#BDBDBD]">
-          <Button className=" w-[100px] lg:w-[180px] h-[48px]  flex gap-2 rounded-full border-2 hover:border-gray-400  " variant="online">Tous le filtres
+        <div className="flex gap-2 lg:gap-2 text-[#BDBDBD]">
+          <Button className=" w-[130px] lg:w-[180px] h-[48px]  flex gap-2 rounded-full border-2 hover:border-gray-400  " variant="online">Tous le filtres
             <img className="sm:h-18" src="assets/filtre.png" alt="logo" />
           </Button>
 
@@ -72,16 +72,16 @@ function Resultat() {
 
 
 
-      <div className="px-28 py-12  flex justify-between ">
+      <div className="px-8 lg:px-28 py-12 flex justify-between ">
 
         <div>
 
           <div>
 
-            <div className="flex items-center bg-white w-[900px] h-[230px]  gap-20 ">
+            <div className="block lg:flex items-center bg-white w-[420px] lg:w-[900px] h-[px] lg:h-[230px] gap-20 ">
 
               <div>
-                <img className="sm:py-10 ml-8 mt-6 " src="assets/chul.png" alt="logo" />
+                <img className="sm:py-10 ml-8 mt-6  lg:block hidden" src="assets/chul.png" alt="logo" />
               </div>
 
 
@@ -89,20 +89,20 @@ function Resultat() {
               <div>
 
                 <div>
-                  <div className="flex justify-between mt-20">
+                  <div className="flex justify-between mt-20 p-8 lg:p-0">
 
-                    <div className="font-bold text-xl">CHUL</div>
+                    <div className="font-bold text-2xl lg:text-xl">CHUL</div>
 
                     <div className="flex gap-3">
-                      <h1 className="font-bold text-xl lg:text-xl">4,5</h1>
-                      <img className="h-3 lg:h-5 mt-2 lg:mt-1" src="assets/ph_star-fill.png" alt="logo" />
+                      <h1 className="font-bold text-2xl lg:text-xl lg:text-xl">4,5</h1>
+                      <img className="h-5 lg:h-5 mt-1 lg:mt-1" src="assets/ph_star-fill.png" alt="logo" />
                     </div>
 
                   </div>
 
 
                   <div>
-                    <h6>
+                    <h6 className="px-8 lg:px-0">
                       Centre Hospitalier universitaire de <br /> Libreville
                     </h6>
                   </div>
@@ -111,8 +111,8 @@ function Resultat() {
 
 
 
-                <div className="flex items-center gap-3 mb-6 text-black">
-                  <img className="sm:py-10 " src="assets/location.png" alt="logo" />
+                <div className="flex items-center gap-3 mb-6 text-black mt-8 px-10 lg:px-0">
+                  <img className="sm:py-10 h-12 " src="assets/location.png" alt="logo" />
 
                   <h6> hôpital général, <br />Derrière L, 356 Rue Ndende, Libreville</h6>
 

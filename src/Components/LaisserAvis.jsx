@@ -23,7 +23,7 @@ function LaisserAvis() {
                 <div className="">
 
 
-                    <Button className=" w-[100px] lg:w-[180px] h-[48px]  gap-2 " variant="">
+                    <Button className=" w-[150px] lg:w-[180px] h-[48px]  gap-2 " variant="">
                         <AlertDialog className="">
                             <AlertDialogTrigger>LAISSER UN AVIS</AlertDialogTrigger>
                             <AlertDialogContent>

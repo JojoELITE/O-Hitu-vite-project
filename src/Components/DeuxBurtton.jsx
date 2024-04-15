@@ -11,10 +11,10 @@ function DeuxBurtton() {
         <>
 
 
-            <div className="mt-6">
+            <div className="mt-6 flex items-center gap-4 px-10 lg:px-0 lg:block">
                 <div>
                     <Link className="mt-8" to="/detail">
-                        <Button className=" w-[100px] lg:w-[180px] h-[48px] rounded-lg border-2 border-[#D83D40] text-[#D83D40] " variant="online">Voir la page detail</Button>
+                        <Button className=" w-[150px] lg:w-[180px] h-[48px] rounded-lg border-2 border-[#D83D40] text-[#D83D40] " variant="online">Voir la page detail</Button>
                     </Link>
                 </div>
 
