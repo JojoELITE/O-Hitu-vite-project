@@ -45,7 +45,7 @@ function Search() {
             <Link to="/resultat">
 
                 <Button variant="online ">
-                    <img className="h-[90px] mt-4 lg:block hidden" src="assets/Search.png" alt="logo"/>
+                    <img className="h-[90px] mt-20 lg:block hidden" src="assets/Search.png" alt="logo"/>
                 </Button>
             </Link>
        

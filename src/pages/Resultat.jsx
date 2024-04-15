@@ -29,7 +29,7 @@ function Resultat() {
       </div>
 
 
-      <div className="mt-6 px-8 lg:px-28 block lg:flex justify-between">
+      <div className="mt-6 px-6 lg:px-28 block lg:flex justify-between">
         <div className="flex gap-2 lg:gap-2 text-[#BDBDBD]">
           <Button className=" w-[130px] lg:w-[180px] h-[48px]  flex gap-2 rounded-full border-2 hover:border-gray-400  " variant="online">Tous le filtres
             <img className="sm:h-18" src="assets/filtre.png" alt="logo" />
@@ -72,13 +72,13 @@ function Resultat() {
 
 
 
-      <div className="px-8 lg:px-28 py-0 lg:py-12 flex justify-between ">
+      <div className="px-0 lg:px-28 py-0 lg:py-12 flex justify-between ">
 
         <div>
 
           <div>
 
-            <div className="block lg:flex items-center bg-white w-[300px] lg:w-[900px] h-[px] lg:h-[230px] gap-20 ">
+            <div className="block lg:flex items-center bg-white w-[480px] lg:w-[900px] h-[px] lg:h-[230px] gap-20 ">
 
               <div>
                 <img className="py-10 ml-8 mt-6 lg:block hidden" src="assets/chul.png" alt="logo" />
@@ -102,7 +102,7 @@ function Resultat() {
 
 
                   <div>
-                    <h6 className="px-8 lg:px-0">
+                    <h6 className="px-8 lg:px-0 text-sm lg:text-lg">
                       Centre Hospitalier universitaire de <br /> Libreville
                     </h6>
                   </div>
@@ -111,8 +111,8 @@ function Resultat() {
 
 
 
-                <div className="flex items-center gap-3 mb-6 text-black mt-8 px-10 lg:px-0">
-                  <img className="sm:py-10 h-12 " src="assets/location.png" alt="logo" />
+                <div className="flex items-center gap-6 mb-6 text-black mt-8 px-10 lg:px-0">
+                  <img className="py-10 h-12 lg:h-32 " src="assets/location.png" alt="logo" />
 
                   <h6> hôpital général, <br />Derrière L, 356 Rue Ndende, Libreville</h6>
 
