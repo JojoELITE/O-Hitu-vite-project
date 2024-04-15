@@ -20,7 +20,7 @@ const Selector = () => {
       <div
         onClick={() => setOpen(!open)}
         className={`ml-[18px] lg:ml-4 py-2 lg:py-6 flex items-center justify-between rounded ${
-          !selected && "text-[#BDBDBD]"
+          !selected && "text-gray-400"
         }`}
       >
         {selected
