@@ -32,10 +32,13 @@ function Search() {
                 </div>
 
 
-                <Button className=" w-[300px] h-[px] border-2 text-[16px] gap-4 text-center text-white mt-1 lg:hidden" variant="">
-                    Rechercher une structure
-                    <img className="" src="assets/material-symbols-light_search.png" alt="logo"/>
-                </Button>
+                <Link to>
+                    <Button className=" w-[300px] h-[px] border-2 text-[16px] gap-4 text-center text-white mt-1 lg:hidden" variant="">
+                        Rechercher une structure
+                        <img className="" src="assets/material-symbols-light_search.png" alt="logo"/>
+                    </Button>
+                </Link>    
+                
             </div>
 
 
