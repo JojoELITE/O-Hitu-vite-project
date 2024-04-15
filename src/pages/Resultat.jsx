@@ -21,10 +21,10 @@ function Resultat() {
       <NavBar />
 
 
-      <div className="bg-black py-4 mt-4 px-28">
+      <div className="bg-black py-4 mt-4 px-8 lg:px-28">
 
         <h6 className="text-white ">16 Résultats pour</h6>
-        <h1 className="text-white font-bold text-4xl mb-4">Clinique à Estuaire , Libreville</h1>
+        <h1 className="text-white font-bold text-xl lg:text-4xl mb-4">Clinique à Estuaire , Libreville</h1>
 
       </div>
 
