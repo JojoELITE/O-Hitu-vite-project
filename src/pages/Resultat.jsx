@@ -78,7 +78,7 @@ function Resultat() {
 
           <div>
 
-            <div className="block lg:flex items-center bg-white w-[400px] lg:w-[900px] h-[px] lg:h-[230px] gap-20 ">
+            <div className="block lg:flex items-center bg-white w-[300px] lg:w-[900px] h-[px] lg:h-[230px] gap-20 ">
 
               <div>
                 <img className="py-10 ml-8 mt-6 lg:block hidden" src="assets/chul.png" alt="logo" />
