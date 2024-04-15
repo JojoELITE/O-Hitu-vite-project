@@ -29,21 +29,21 @@ function Resultat() {
       </div>
 
 
-      <div className="mt-6 px-28 flex justify-between">
-        <div className="flex gap-2 text-[#BDBDBD]">
+      <div className="mt-6 px-8 lg:px-28 block lg:flex justify-between">
+        <div className="flex gap-10 lg:gap-2 text-[#BDBDBD]">
           <Button className=" w-[100px] lg:w-[180px] h-[48px]  flex gap-2 rounded-full border-2 hover:border-gray-400  " variant="online">Tous le filtres
             <img className="sm:h-18" src="assets/filtre.png" alt="logo" />
           </Button>
 
           <Button className=" w-[100px] lg:w-[120px] h-[48px] rounded-full border-2  hover:border-gray-400" variant="online">Notation</Button>
           <Button className=" w-[100px] lg:w-[120px] h-[48px] rounded-full border-2 border-gray-400 " variant="online">Localisation</Button>
-          <Button className=" w-[100px] lg:w-[120px] h-[48px] rounded-full border-2 hover:border-gray-400 " variant="online">Catégorie</Button>
-          <Button className=" w-[100px] lg:w-[120px] h-[48px] rounded-full border-2 hover:border-gray-400 " variant="online">Mieux noté</Button>
+          <Button className=" w-[100px] lg:w-[120px] h-[48px] rounded-full border-2 hover:border-gray-400 lg:block hidden " variant="online">Catégorie</Button>
+          <Button className=" w-[100px] lg:w-[120px] h-[48px] rounded-full border-2 hover:border-gray-400 lg:block hidden " variant="online">Mieux noté</Button>
 
         </div>
 
-        <div className="flex gap-2 text-[#BDBDBD]">
-          <form class="flex gap-4 flex justify-center px-3">
+        <div className="flex gap-2 text-[#BDBDBD] mt-4 lg:mt-0">
+          <form class="flex gap-4 flex justify-center px-3 ">
             <label for="" class="block mt-2 text-xl text-[#4B4B61] dark:text-white ">Filtrez :</label>
 
 
