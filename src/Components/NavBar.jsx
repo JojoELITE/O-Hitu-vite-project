@@ -43,7 +43,7 @@ function NavBar() {
                             </Button>
 
                         </DropdownMenuTrigger>
-                        <DropdownMenuContent className="lg:ml-32 ">
+                        <DropdownMenuContent className="lg:ml-32 bg-">
                             <DropdownMenuLabel className="">
                                 <Search />
                             </DropdownMenuLabel>
