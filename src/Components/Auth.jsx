@@ -22,7 +22,7 @@ function Auth() {
                     <img className="sm:h-18" src="assets/ph_star-fill.png" alt="logo" />
 
                     <AlertDialog className="">
-                        <AlertDialogTrigger className="sm:text-[8px]">LAISSER UN AVIS</AlertDialogTrigger>
+                        <AlertDialogTrigger className="text-[8px] lg:text-[16px]">LAISSER UN AVIS</AlertDialogTrigger>
 
                         <AlertDialogContent>
                             <AlertDialogHeader>
