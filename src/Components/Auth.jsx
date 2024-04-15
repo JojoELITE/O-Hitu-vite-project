@@ -16,15 +16,15 @@ function Auth() {
     return (
         <>
 
-            <div className="ml-0 lg:ml-[900px] flex">
+            <div className="ml-0 lg:ml-[900px] hidden lg:flex">
 
-                <Button className=" w-[100px] lg:w-[180px] h-[48px] gap-1 lg:gap-2 " variant="">
+                <Button className=" w-[px] lg:w-[180px] h-[48px] gap-1 lg:gap-2 " variant="">
                     <img className="sm:h-18" src="assets/ph_star-fill.png" alt="logo" />
 
                     <AlertDialog className="">
                         <AlertDialogTrigger className="text-[8px] lg:text-[16px]">LAISSER UN AVIS</AlertDialogTrigger>
 
-                        <AlertDialogContent>
+                        <AlertDialogContent className="flex ">
                             <AlertDialogHeader>
 
                                 <div className="lg:flex justify-end hidden gap-4 items-center">
@@ -40,7 +40,7 @@ function Auth() {
                                 </div>
 
 
-                                <div className="lg:flex hidden gap-10">
+                                <div className="flex gap-10">
 
                                     <div >
 
@@ -65,7 +65,7 @@ function Auth() {
 
 
 
-                                    <div className="image1 border-l-2 border-gray-200 px-20">
+                                    <div className="border-l-2 border-gray-200 px-0 lg:px-20">
 
                                         <div className="py-32 px-20">
 
@@ -120,6 +120,100 @@ function Auth() {
 
                 </Button>
             </div>
+
+
+
+
+
+            <div className="block lg:hidden ">
+
+                <Button className="gap-1" variant="">
+                    <img className="" src="assets/ph_star-fill.png" alt="logo" />
+
+                    <AlertDialog className="">
+                        <AlertDialogTrigger className="text-[8px] lg:text-[16px]">LAISSER UN AVIS</AlertDialogTrigger>
+
+                        <AlertDialogContent className="">
+                            <AlertDialogHeader>
+
+                                <div className="flex  items-center gap-2">
+
+                                    <div className="">
+                                        Laisser votre avis
+                                    </div>
+
+
+
+                                    <AlertDialogCancel className="text-center rounded-full text-white bg-black">
+                                        x
+                                    </AlertDialogCancel>
+
+                                </div>
+
+
+                                <div className="py-4">
+
+                                    <div className="">
+
+                                        <Button variant="outlined" className=" flex items-center justify-between gap-4 rounded-full bg-[#F6F6F6]">
+
+                                            S’identifier avec Google
+
+                                            <img
+                                                src={`https://www.material-tailwind.com/logos/logo-google.png`}
+                                                alt="google"
+                                                className="h-8 w-8"
+                                            />
+
+                                        </Button>
+
+
+                                        <Button variant="outlined" className=" text-  flex items-center justify-between gap-10 rounded-full bg-[#F6F6F6] p-8 mt-4">
+
+                                            S’identifier avec Facebook
+
+                                            <img
+                                                src={`https://www.material-tailwind.com/logos/logo-facebook.png`}
+                                                alt="facebook"
+                                                className="h-14 w-14"
+                                            />
+
+                                        </Button>
+
+
+                                        <Button variant="outlined" className=" text-xl text-lg  flex items-center justify-between gap-10 rounded-full bg-[#F6F6F6] p-8 mt-4">
+
+                                            S’identifier avec Icloud
+
+                                            <img
+                                                src={`https://www.material-tailwind.com/logos/logo-apple.png`}
+                                                alt="apple"
+                                                className="h-14 w-14"
+                                            />
+
+                                        </Button>
+
+                                    </div>
+
+                                    <div className="lg:block hidden">
+                                        En laissant un avis sur O’hitu vous acceptez nos
+                                        <Link to className="font-bold"> Politique de confidentialité</Link>
+                                    </div>
+
+                                </div>
+
+
+                            </AlertDialogHeader>
+
+                        </AlertDialogContent>
+                    </AlertDialog>
+
+                </Button>
+            </div>
+
+
+
+
 
 
         </>

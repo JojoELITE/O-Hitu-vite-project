@@ -11,13 +11,13 @@ function Search() {
 
         <div className="lg:flex items-center">
 
-            <div className="lg:py-10 mr-32 lg:mr-0 block lg:flex ">
-                <Button className=" w-[300px] lg:w-[426.04px] lg:h-[70px] border-2 text-[16px] bg-white" variant="online">
-                    <img className="lg:h-[66px]" src="assets/material-symbols-light_search.png" alt="logo"/>
-                    <input className="h-8 lg:h-0 py-2 px-4 outline-none" type="text" placeholder="Rechercher une structure" />
+            <div className="lg:py-10 block lg:flex ">
+                <Button className="w-[300px] lg:w-[426.04px] lg:h-[70px] border-2 text-[16px] bg-white" variant="online">
+                    <img className="lg:block hidden lg:h-[66px]" src="assets/material-symbols-light_search.png" alt="logo"/>
+                    <input className=" lg:block hidden h-8 lg:h-0 py-2 px-4 outline-none" type="text" placeholder="Rechercher une structure" />
                 </Button>
                 
-                <div className="flex w-[300px] lg:w-[426.04px] h-10 lg:h-[70px] border-2 text-[16px] mt-1 lg:mt-0 bg-white" variant="online">
+                <div className=" lg:flex hidden w-[300px] lg:w-[426.04px] h-10 lg:h-[70px] border-2 text-[16px] mt-1 lg:mt-0 bg-white" variant="online">
                     <Button className="sm:block lg:hidden" variant="online">
                         <img className="h-8 lg:h-[44px] lg:mb-1" src="assets/fluent_location-20-regular.png" alt="logo"/>
                     </Button>
