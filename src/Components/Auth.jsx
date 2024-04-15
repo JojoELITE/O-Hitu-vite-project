@@ -136,7 +136,7 @@ function Auth() {
                         <AlertDialogContent className="">
                             <AlertDialogHeader>
 
-                                <div className="flex justify-center  items-center gap-2">
+                                <div className="flex justify-center  items-center gap-8">
 
                                     <div className="">
                                         Laisser votre avis
@@ -144,7 +144,7 @@ function Auth() {
 
 
 
-                                    <AlertDialogCancel className="text-center rounded-full text-white bg-black">
+                                    <AlertDialogCancel className="text-center rounded-full text-white bg-black mb-2">
                                         x
                                     </AlertDialogCancel>
 
