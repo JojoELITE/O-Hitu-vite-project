@@ -168,32 +168,33 @@ function Auth() {
                                         </Button>
 
 
-                                        <Button variant="outlined" className=" text-  flex items-center justify-between gap-10 rounded-full bg-[#F6F6F6] p-8 mt-4">
+                                        <Button variant="outlined" className="flex items-center justify-between gap-4 rounded-full bg-[#F6F6F6] mt-4">
 
                                             S’identifier avec Facebook
 
                                             <img
                                                 src={`https://www.material-tailwind.com/logos/logo-facebook.png`}
                                                 alt="facebook"
-                                                className="h-14 w-14"
+                                                className="h-8 w-8"
                                             />
 
                                         </Button>
 
 
-                                        <Button variant="outlined" className=" text-xl text-lg  flex items-center justify-between gap-10 rounded-full bg-[#F6F6F6] p-8 mt-4">
+                                        <Button variant="outlined" className="flex items-center justify-between gap-4 rounded-full bg-[#F6F6F6] mt-4">
 
                                             S’identifier avec Icloud
 
                                             <img
                                                 src={`https://www.material-tailwind.com/logos/logo-apple.png`}
                                                 alt="apple"
-                                                className="h-14 w-14"
+                                                className="h-8 w-8"
                                             />
 
                                         </Button>
 
                                     </div>
+
 
                                     <div className="lg:block hidden">
                                         En laissant un avis sur O’hitu vous acceptez nos
