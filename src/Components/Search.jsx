@@ -19,7 +19,7 @@ function Search() {
                 
                 <div className=" flex  w-[300px] lg:w-[426.04px] h-10 lg:h-[70px] border-2 text-[16px] mt-1 lg:mt-0 bg-white" variant="online">
                     <Button className="sm:block lg:hidden" variant="online">
-                        <img className="h-8 lg:h-[44px] lg:mb-1" src="assets/fluent_location-20-regular.png" alt="logo"/>
+                        <img className="h-9 lg:h-[44px] lg:mb-1" src="assets/fluent_location-20-regular.png" alt="logo"/>
                     </Button>
 
 
@@ -55,12 +55,12 @@ function Search() {
             <Button className=" w-[100px] lg:w-[180px] h-[48px] bg-[#1A2E35] " variant="">Pharmacie</Button>
             <Button className=" w-[100px] lg:w-[180px] h-[48px] bg-[#1A2E35] lg:block hidden" variant="">PMI</Button>
         </div>
-
+{/*
         <div className="flex lg:hidden gap-4 mt-4">
             <Button className="w-[100px] h-[48px] bg-[#1A2E35] text-[10px] lg:text-0" variant="">PMI</Button>
             <Button className="w-[100px] h-[48px] bg-[#1A2E35] text-[10px] lg:text-0" variant="">Cabinet</Button>
             <Button className="w-[100px] h-[48px] bg-[#1A2E35] text-[10px] lg:text-0" variant="">Centre d'examen</Button>
-        </div>
+  </div> */}
 
     </div>
   )
