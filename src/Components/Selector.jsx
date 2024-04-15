@@ -16,7 +16,7 @@ const Selector = () => {
       });
   }, []);
   return (
-    <div className=" font-medium sticky top-0">
+    <div className="font-medium sticky top-0">
       <div
         onClick={() => setOpen(!open)}
         className={`ml-[18px] lg:ml-4 py-2 lg:py-6 flex items-center justify-between rounded ${
@@ -31,7 +31,7 @@ const Selector = () => {
         <BiChevronDown size={20} className={`${open && "rotate-180"}`} />
       </div>
       <ul
-        className={`bg-white  overflow-y-auto ${
+        className={`bg-white overflow-y-auto ${
           open ? "max-h-60" : "max-h-0"
         } `}
       >
