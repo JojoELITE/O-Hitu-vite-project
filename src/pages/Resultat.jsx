@@ -59,7 +59,7 @@ function Resultat() {
 
           </form>
 
-          <Button className=" w-[100px] lg:w-[150px] h-[48px]  flex gap-2 rounded-full border-2 hover:border-gray-400" variant="online">
+          <Button className=" w-[130px] lg:w-[150px] h-[48px]  flex gap-2 rounded-full border-2 hover:border-gray-400" variant="online">
             <img className="sm:h-18" src="assets/carte.png" alt="logo" />
             voir la carte
           </Button>
