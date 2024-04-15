@@ -18,17 +18,16 @@ function Auth() {
 
             <div className="ml-0 lg:ml-[900px] flex">
 
-                <Button className=" w-[50px] lg:w-[180px] h-[48px] gap-1 lg:gap-2 " variant="">
+                <Button className=" w-[100px] lg:w-[180px] h-[48px] gap-1 lg:gap-2 " variant="">
                     <img className="sm:h-18" src="assets/ph_star-fill.png" alt="logo" />
 
                     <AlertDialog className="">
-                        <AlertDialogTrigger className="lg:hidden  text-[8px]">LAISSER UN AVIS</AlertDialogTrigger>
-                        <AlertDialogTrigger className="lg:block hidden">LAISSER UN AVIS</AlertDialogTrigger>
+                        <AlertDialogTrigger className="sm:text-[8px]">LAISSER UN AVIS</AlertDialogTrigger>
 
                         <AlertDialogContent>
                             <AlertDialogHeader>
 
-                                <div className="flex justify-end gap-4 items-center">
+                                <div className="lg:flex justify-end hidden gap-4 items-center">
                                     <div className="lg:block hidden">
                                         En laissant un avis sur O’hitu vous acceptez nos
                                         <Link to className="font-bold"> Politique de confidentialité</Link>
