@@ -35,7 +35,7 @@ const Selector = () => {
           open ? "max-h-60" : "max-h-0"
         } `}
       >
-        <div className="flex items-center py-2 lg:w-56 sticky top-0 bg-white">
+        <div className="flex items-center py-2 w-4 lg:w-56 sticky top-0 bg-white">
           <AiOutlineSearch size={20} className="text-gray-700" />
           <input
             type="text"
