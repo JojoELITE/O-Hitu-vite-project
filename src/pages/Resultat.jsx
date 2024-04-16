@@ -45,8 +45,8 @@ function Resultat() {
           </div>
 
           <div className="flex gap-3 text-[#BDBDBD] mt-4 lg:mt-0">
-            <form class="flex gap-4 flex justify-center px-3 ">
-              <label for="" class="block mt-2 text-xl text-[#4B4B61] dark:text-white ">Filtrez :</label>
+            <form class="flex gap-5 flex justify-center px-3 ">
+              <label for="" class="block mt-2 text-[16px] text-[#4B4B61] dark:text-white ">Filtrez :</label>
 
 
               <Select className="" >
