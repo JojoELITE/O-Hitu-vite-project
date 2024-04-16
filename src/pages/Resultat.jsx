@@ -44,17 +44,17 @@ function Resultat() {
 
           </div>
 
-          <div className="flex gap-3 text-[#BDBDBD] mt-4 lg:mt-0">
-            <form class="flex gap-2 flex justify-center px-3 ">
-              <label for="" class="block mt-2 text-[16px] text-[#4B4B61] dark:text-white ">Filtrez :</label>
+          <div className="flex items-center gap-24 text-[#BDBDBD] mt-4 lg:mt-0">
+            <form class="flex gap-2 items-center">
+              <label for="" class="block px-3 lg:mt-2 text-[18px] text-[#4B4B61] dark:text-white ">Filtrez </label>
 
 
               <Select className="" >
-                <SelectTrigger className="w-[100px] lg:w-[180px]">
+                <SelectTrigger className="lg:w-[180px]">
                   <SelectValue placeholder="" />
                 </SelectTrigger>
                 <SelectContent className="text-[#4B4B61] rounded-lg bg-white ">
-                  <SelectItem value="mieux">Les mieux notés</SelectItem>
+                  <SelectItem className="" value="mieux">Les mieux notés</SelectItem>
                   <SelectItem value="moins">Les moins notés</SelectItem>
                 </SelectContent>
               </Select>
