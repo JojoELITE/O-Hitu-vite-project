@@ -44,13 +44,13 @@ function Resultat() {
 
           </div>
 
-          <div className="flex items-center gap-24 text-[#BDBDBD] mt-4 lg:mt-0">
-            <form class="flex gap-2 items-center">
-              <label for="" class="block px-3 lg:mt-2 text-[18px] text-[#4B4B61] dark:text-white ">Filtrez </label>
+          <div className="flex justify-between items-center gap-24 lg:gap-2 text-[#BDBDBD] mt-4 lg:mt-0">
+            <form class="flex items-center">
+              <label for="" class="block px-3 lg:mt-2 text-[18px] text-[#4B4B61] dark:text-white ">Filtrez :</label>
 
 
               <Select className="" >
-                <SelectTrigger className="lg:w-[180px]">
+                <SelectTrigger className="w-[50px] lg:w-[180px]">
                   <SelectValue placeholder="" />
                 </SelectTrigger>
                 <SelectContent className="text-[#4B4B61] rounded-lg bg-white ">
