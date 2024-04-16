@@ -44,7 +44,7 @@ function Resultat() {
 
           </div>
 
-          <div className="gap- lg:gap-2 text-[#BDBDBD] mt-4 lg:mt-0 flex justify-between items-center">
+          <div className="gap-2 lg:gap-2 text-[#BDBDBD] mt-4 lg:mt-0 flex justify-between items-center">
       
             <form class="flex items-center gap-2">
               <label for="notes" class="block text-sm font-medium text-gray-900 dark:text-white">Filtrez :</label>
