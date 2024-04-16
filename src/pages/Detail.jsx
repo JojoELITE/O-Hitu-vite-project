@@ -203,8 +203,8 @@ function Detail() {
               </div>
 
               <div>
-                <h6 className="text-[#322E2E] text-center mr-20 lg:mr-10 text-[12px] lg:text-lg block lg:hidden">sur 232 avis</h6>
-                <h6 className="text-[#322E2E] text-center mr-20 lg:mr-10 text-[12px] lg:text-lg lg:block hidden">sur 232 <br /> avis</h6>
+                <h6 className="text-[#322E2E] text-center mr- lg:mr-10 text-[12px] lg:text-lg block lg:hidden">sur 232 avis</h6>
+                <h6 className="text-[#322E2E] text-center mr-10 text-lg lg:block hidden">sur 232 <br /> avis</h6>
 
               </div>
 
