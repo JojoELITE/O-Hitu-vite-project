@@ -44,28 +44,10 @@ function Resultat() {
 
           </div>
 
-          <div className="gap-24 lg:gap-2 text-[#BDBDBD] mt-4 lg:mt-0 flex justify-between items-center">
-            <form class="lg:flex items-center hidden">
-              <label for="" class="block px-3 lg:mt-2 text-[18px] text-[#4B4B61] dark:text-white ">Filtrez :</label>
-
-
-              <Select className="" >
-                <SelectTrigger className="w-[100px] lg:w-[180px]">
-                  <SelectValue placeholder="" />
-                </SelectTrigger>
-                <SelectContent className="text-[#4B4B61] rounded-lg bg-white ">
-                  <SelectItem className="" value="mieux">Les mieux notés</SelectItem>
-                  <SelectItem value="moins">Les moins notés</SelectItem>
-                </SelectContent>
-              </Select>
-
-
-            </form>
-
-
-
-            <form class="flex items-center gap-2 block lg:hidden">
-              <label for="notes" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Filtrez :</label>
+          <div className="gap- lg:gap-2 text-[#BDBDBD] mt-4 lg:mt-0 flex justify-between items-center">
+      
+            <form class="flex items-center gap-2">
+              <label for="notes" class="block text-sm font-medium text-gray-900 dark:text-white">Filtrez :</label>
               <select id="notes" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w- p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                 <option selected></option>
                 <option value="mieux">Les mieux notés</option>
