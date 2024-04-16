@@ -263,11 +263,11 @@ function Detail() {
 
 
 
-      <div className="p-8 lg:p-12 px-4 lg:px-28 ">
+      <div className="p-8 lg:p-12 px-2 lg:px-28 ">
 
         <div className="bg-white rounded-">
 
-          <Tabs defaultValue="description" className="w-[px] lg:w-full py-10 px-4 lg:px-10">
+          <Tabs defaultValue="description" className="w-[px] lg:w-full py-10 px-2 lg:px-10">
             <TabsList className="gap-6 lg:gap-32 bg-white">
               <TabsTrigger className="text-xl hover:font-bold text-black border-b-8 border-black" value="description">Description</TabsTrigger>
               <TabsTrigger className="text-xl hover:font-bold text-black hover:border-b-8 border-black" value="localisation">Localisation</TabsTrigger>
