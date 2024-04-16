@@ -54,8 +54,12 @@ function Detail() {
             <h6 className=" text-white">www.chul.ga</h6>
           </div>
 
+
+
+
+
           <div className="mt-6 flex  gap-6 lg:gap-4">
-            <div>
+            <div className="lg:block hidden">
               <Button className=" w-[200px] lg:w-[200px] h-[48px] gap-2 bg-white text-black" variant="online">
                 <img className="h-8" src="assets/smile.png" alt="logo" />
 
@@ -159,6 +163,95 @@ function Detail() {
 
               </Button>
 
+            </div>
+
+
+
+            <div className="block lg:hidden">
+
+              <Button className=" w-[px] lg:w-[180px] h-[48px] gap-1 lg:gap-2 bg-white text-black " variant="online">
+                <img className="" src="assets/smile.png" alt="logo" />
+
+                <AlertDialog className="">
+                  <AlertDialogTrigger className="text-">LAISSER UN AVIS</AlertDialogTrigger>
+
+                  <AlertDialogContent className="">
+                    <AlertDialogHeader>
+
+                      <div className="flex justify-center  items-center gap-8">
+
+                        <div className="">
+                          Laisser votre avis
+                        </div>
+
+
+
+                        <AlertDialogCancel className="text-center rounded-full text-white bg-black mb-2">
+                          x
+                        </AlertDialogCancel>
+
+                      </div>
+
+
+                      <div className="py-4">
+
+                        <div className="">
+
+                          <Button variant="outlined" className=" flex items-center justify-between gap-4 rounded-full bg-[#F6F6F6]">
+
+                            S’identifier avec Google
+
+                            <img
+                              src={`https://www.material-tailwind.com/logos/logo-google.png`}
+                              alt="google"
+                              className="h-8 w-8"
+                            />
+
+                          </Button>
+
+
+                          <Button variant="outlined" className="flex items-center justify-between gap-4 rounded-full bg-[#F6F6F6] mt-4">
+
+                            S’identifier avec Facebook
+
+                            <img
+                              src={`https://www.material-tailwind.com/logos/logo-facebook.png`}
+                              alt="facebook"
+                              className="h-8 w-8"
+                            />
+
+                          </Button>
+
+
+                          <Button variant="outlined" className="flex items-center justify-between gap-4 rounded-full bg-[#F6F6F6] mt-4">
+
+                            S’identifier avec Icloud
+
+                            <img
+                              src={`https://www.material-tailwind.com/logos/logo-apple.png`}
+                              alt="apple"
+                              className="h-8 w-8"
+                            />
+
+                          </Button>
+
+                        </div>
+
+
+                        <div className="block lg:hidden text-sm py-8">
+                          En laissant un avis sur O’hitu vous acceptez nos<br />
+                          <Link to className="font-bold"> Politique de confidentialité</Link>
+                        </div>
+
+                      </div>
+
+
+                    </AlertDialogHeader>
+
+                  </AlertDialogContent>
+                </AlertDialog>
+
+              </Button>
             </div>
 
             <div className="">
