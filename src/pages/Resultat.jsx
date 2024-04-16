@@ -252,18 +252,18 @@ function Resultat() {
             <Tableau />
           </div>
 
- 
+
           <div className="mt-6 flex justify-center lg:block">
             <img className="sm:py-10  w-[300px] lg:w-[500px]" src="assets/bucket.png" alt="logo" />
 
           </div>
 
-
-          <div className="block lg:hidden">
-            <Tableau />
-          </div>
+        </div>
 
 
+
+        <div className="block lg:hidden">
+          <Tableau />
         </div>
 
 
