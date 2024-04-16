@@ -186,8 +186,8 @@ function Detail() {
           <div className="text-black bg-white p-0 lg:p-6 mt-8 lg:mt-0 rounded-lg">
 
             <div className="flex gap-4 items-center">
-              <div className="font-bold text-[10px] lg:text-lg py-6 px-4">NOTE DES<br /> PATIENTS</div>
-              <div className="flex py-8 px-4 items-center">
+              <div className="font-bold text-[12px] lg:text-lg py-6 px-4">NOTE DES<br /> PATIENTS</div>
+              <div className="flex py-8 px-2 lg:px-4 items-center">
                 <img className="h-6" src="assets/ph_star-fill.png" alt="logo" />
                 <img className="h-6" src="assets/ph_star-fill.png" alt="logo" />
                 <img className="h-6" src="assets/eb.png" alt="logo" />
@@ -195,13 +195,13 @@ function Detail() {
                 <img className="h-6" src="assets/eb.png" alt="logo" />
               </div>
 
-              <div className="flex font-bold text-2xl">
+              <div className="flex font-bold text- lg:text-2xl">
                 <h2 className="py-7 ">2.81</h2>
                 <h2 className="py-7 text-sm">/5</h2>
               </div>
 
               <div>
-                <h6 className="text-[#322E2E] text-center py-4 mr-10">sur 232 <br /> avis</h6>
+                <h6 className="text-[#322E2E] text-center mr-10 text-sm lg:text-lg">sur 232 <br /> avis</h6>
               </div>
 
             </div>
