@@ -181,15 +181,12 @@ function Detail() {
 
 
 
-
-
-
         <div className="">
 
           <div className="text-black bg-white p-0 lg:p-6 mt-8 lg:mt-0 rounded-lg">
 
             <div className="flex gap-4 items-center">
-              <div className="font-bold text-sm lg:text-lg py-6 px-4">NOTE DES<br /> PATIENTS</div>
+              <div className="font-bold text-[10px] lg:text-lg py-6 px-4">NOTE DES<br /> PATIENTS</div>
               <div className="flex py-8 px-4 items-center">
                 <img className="h-6" src="assets/ph_star-fill.png" alt="logo" />
                 <img className="h-6" src="assets/ph_star-fill.png" alt="logo" />
@@ -211,11 +208,11 @@ function Detail() {
 
 
 
-            <div className="flex gap-4 border-y-2 border-[#C6C6C6] py-6 px-4 items-center">
+            <div className="flex gap-2 border-y-2 border-[#C6C6C6] py-6 px-4 items-center">
               <h2 className="font-bold text-sm lg:text-lg">CONNEXIONS 4.0</h2>
               <img className="h-5" src="assets/i_Icon.png" alt="logo" />
 
-              <div className="ml-16">
+              <div className="ml-4 lg:ml-16">
                 <span className="rounded-md bg-[#C8DAE6] p-3 text-white font-bold text-xl">A</span>
                 <span className="rounded-md bg-black p-3 text-white font-bold ml-2 text-xl">B</span>
                 <span className="rounded-md bg-[#C8DAE6] p-3 text-white font-bold ml-2 text-xl">C</span>
