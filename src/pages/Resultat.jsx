@@ -259,6 +259,11 @@ function Resultat() {
           </div>
 
 
+          <div className="block lg:hidden">
+            <Tableau />
+          </div>
+
+
         </div>
 
 
