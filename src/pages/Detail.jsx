@@ -186,7 +186,7 @@ function Detail() {
           <div className="text-black bg-white p-0 lg:p-6 mt-8 lg:mt-0 rounded-lg">
 
             <div className="flex gap-4 items-center">
-              <div className="font-bold text-[12px] lg:text-lg py-6 px-4">NOTE DES<br /> PATIENTS</div>
+              <div className="font-bold text-[8px] lg:text-lg py-6 px-4">NOTE DES<br /> PATIENTS</div>
               <div className="flex py-8 px-2 lg:px-4 items-center">
                 <img className="h-6" src="assets/ph_star-fill.png" alt="logo" />
                 <img className="h-6" src="assets/ph_star-fill.png" alt="logo" />
@@ -209,7 +209,7 @@ function Detail() {
 
 
             <div className="flex gap-2 border-y-2 border-[#C6C6C6] py-6 px-4 items-center">
-              <h2 className="font-bold text-sm lg:text-lg">CONNEXIONS 4.0</h2>
+              <h2 className="font-bold text-[8px] lg:text-lg">CONNEXIONS 4.0</h2>
               <img className="h-5" src="assets/i_Icon.png" alt="logo" />
 
               <div className="ml-4 lg:ml-16">
@@ -225,7 +225,7 @@ function Detail() {
 
 
             <div className="flex gap-4 py-6 px-4 border-b-2 border-[#C6C6C6] items-center">
-              <h2 className="font-bold text-sm lg:text-lg">NOTE GLOBALE </h2>
+              <h2 className="font-bold text-[8px] lg:text-lg">NOTE GLOBALE </h2>
               <img className="h-5" src="assets/i_Icon.png" alt="logo" />
 
               <div className="flex font-bold text-2xl ml-24">
@@ -236,8 +236,8 @@ function Detail() {
             </div>
 
 
-            <div className="flex gap-4 px-4 py-6 items-center">
-              <h2 className="font-bold text-sm lg:text-lg">CLASSEMENT REGIONAL </h2>
+            <div className="flex juxtify-between lg:flex gap-4 px-4 py-6 items-center">
+              <h2 className="font-bold text-[8px] lg:text-lg">CLASSEMENT REGIONAL </h2>
               <img className="h-5" src="assets/i_Icon.png" alt="logo" />
 
               <div className="flex font-bold text-2xl ml-6">
