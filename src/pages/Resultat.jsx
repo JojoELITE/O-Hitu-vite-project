@@ -46,7 +46,7 @@ function Resultat() {
 
           <div className="gap-2 lg:gap-2 text-[#BDBDBD] mt-4 lg:mt-0 flex justify-between items-center">
       
-            <form class="flex items-center gap-2">
+            <form class="flex items-center gap-2  ">
               <label for="notes" class="block text-sm font-medium text-gray-900 dark:text-white">Filtrez </label>
               <select id="notes" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w- p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                 <option selected></option>
