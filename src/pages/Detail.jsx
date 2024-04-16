@@ -28,8 +28,7 @@ function Detail() {
 
       <NavBar />
 
-
-      <div className="bg-black block lg:flex justify-between px-8 lg:px-28 py-12">
+      <div className="bg-black block lg:flex justify-between px-2 lg:px-28 py-12">
 
         <div className="">
 
@@ -187,7 +186,7 @@ function Detail() {
 
         <div className="">
 
-          <div className="text-black bg-white p-6 mt-8 lg:mt-0 rounded-lg">
+          <div className="text-black bg-white p-0 lg:p-6 mt-8 lg:mt-0 rounded-lg">
 
             <div className="flex gap-4 items-center">
               <div className="font-bold py-6 px-4">NOTE DES<br /> PATIENTS</div>
@@ -281,7 +280,7 @@ function Detail() {
                 <AccordionItem value="item-1">
                   <h1 className="text-2xl lg:text-4xl font-bold py-8 ">Description</h1>
                   <AccordionTrigger>Quelle est l'activité du CHUL ?</AccordionTrigger>
-                  <AccordionContent>
+                  <AccordionContent className="">
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br />
                     ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint <br />
                     occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
