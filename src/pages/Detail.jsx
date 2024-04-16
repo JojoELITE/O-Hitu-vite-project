@@ -189,7 +189,7 @@ function Detail() {
               <div className="font-bold text-sm lg:text-lg py-6 px-4 lg:block hidden">NOTE DES<br /> PATIENTS</div>
               <div className="font-bold text-sm lg:text-lg py-6 px-4 block lg:hidden">NOTE DES PATIENTS</div>
 
-              <div className="flex py-8 px-0 lg:px-4 items-center">
+              <div className="flex mr-10 lg:mr-0 py-8 px-0 lg:px-4 items-center">
                 <img className="h-6" src="assets/ph_star-fill.png" alt="logo" />
                 <img className="h-6" src="assets/ph_star-fill.png" alt="logo" />
                 <img className="h-6" src="assets/eb.png" alt="logo" />
