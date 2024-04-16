@@ -260,13 +260,11 @@ function Resultat() {
 
         </div>
 
+      </div>
 
 
-        <div className="block lg:hidden">
-          <Tableau />
-        </div>
-
-
+      <div className="flex justify-center lg:hidden">
+        <Tableau />
       </div>
 
       <div className="lg:block hidden">
