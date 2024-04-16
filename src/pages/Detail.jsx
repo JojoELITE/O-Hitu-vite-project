@@ -40,17 +40,17 @@ function Detail() {
 
           </div>
 
-          <div className="flex gap-3 mt-6 items-center py-4">
+          <div className="flex gap-3 mt-2 lg:mt-6 items-center py-4">
             <img className="h-8 " src="assets/local2.png" alt="logo" />
             <h6 className=" text-white">hôpital général,  Derrière L, 356 Rue Ndende, Libreville</h6>
           </div>
 
-          <div className="flex gap-3 mt-3 items-center">
+          <div className="flex gap-3 mt-1 lg:mt-3  items-center">
             <img className="h-8 " src="assets/tel.png" alt="logo" />
             <h6 className=" text-white">+24177808864</h6>
           </div>
 
-          <div className="flex gap-3 mt-3 items-center py-4">
+          <div className="flex gap-3 mt-1 lg:mt-3 items-center py-4">
             <img className="h-8 " src="assets/reseau.png" alt="logo" />
             <h6 className=" text-white">www.chul.ga</h6>
           </div>
@@ -263,7 +263,7 @@ function Detail() {
 
 
 
-      <div className="p-8 lg:p-12 px-8 lg:px-28 ">
+      <div className="p-8 lg:p-12 px-4 lg:px-28 ">
 
         <div className="bg-white rounded-">
 
