@@ -77,7 +77,7 @@ function Resultat() {
 
           <div className="py:0 lg:py-10">
 
-            <div className="block lg:flex items-center bg-white w-[300px] lg:w-[900px] h-[230px]  gap-20 ">
+            <div className="block lg:flex items-center bg-white w-[330px] lg:w-[900px] h-[230px]  gap-20 ">
 
               <div>
                 <img className=" ml-8 lg:block hidden" src="assets/chu.png" alt="logo" />
@@ -87,11 +87,11 @@ function Resultat() {
               <div>
 
                 <div>
-                  <div className="flex lg:flex justify-between px-8 lg:px-0 py-6 lg:py-0 mt-10 lg:mt-20 ">
+                  <div className="flex lg:flex justify-between px-8 lg:px-0 mt-10 lg:mt-20 ">
 
-                    <div className="font-bold text-xl">CHUO</div>
+                    <div className="font-bold text-xl mt-6">CHUO</div>
 
-                    <div className="flex gap-3">
+                    <div className="flex gap-3 mt-6">
                       <h1 className="font-bold text-xl lg:text-xl">4,5</h1>
                       <img className="h-3 lg:h-5 mt-2 lg:mt-1" src="assets/ph_star-fill.png" alt="logo" />
                     </div>
@@ -109,7 +109,7 @@ function Resultat() {
 
 
 
-                <div className="flex items-center gap-3 mb-6 text-black">
+                <div className="flex items-center gap-3 mb-6 text-black px-8 lg:px-0  mt-8 lg:mt-0">
                   <img className="sm:py-10 " src="assets/location.png" alt="logo" />
 
                   <h6> hôpital général, <br />Derrière L, 356 Rue Ndende, Libreville</h6>
