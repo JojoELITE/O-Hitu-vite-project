@@ -29,13 +29,13 @@ function Detail() {
       <NavBar />
 
 
-      <div className="bg-black flex justify-between px-28 py-12">
+      <div className="bg-black block lg:flex justify-between px-8 lg:px-28 py-12">
 
         <div className="">
 
           <div className="flex gap-3">
-            <img className="h-6 mt-2" src="assets/gauche.png" alt="logo" />
-            <h1 className="text-[8px] lg:text-4xl text-white ml-2"> CHUL : Centre hospitalier universitaire <br /> de Libreville</h1>
+            <img className="h-6 mt-2 lg:block hidden" src="assets/gauche.png" alt="logo" />
+            <h1 className="text-2xl lg:text-4xl text-white ml-2"> CHUL : Centre hospitalier universitaire <br /> de Libreville</h1>
           </div>
 
           <div className="flex gap-3 mt-6 items-center py-4">
@@ -53,9 +53,9 @@ function Detail() {
             <h6 className=" text-white">www.chul.ga</h6>
           </div>
 
-          <div className="mt-6 flex gap-4">
+          <div className="mt-6 px-8 lg:px-0 flex gap-10 lg:gap-4">
             <div>
-              <Button className=" w-[100px] lg:w-[200px] h-[48px] gap-2 bg-white text-black" variant="online">
+              <Button className=" w-[200px] lg:w-[200px] h-[48px] gap-2 bg-white text-black" variant="online">
                 <img className="h-8" src="assets/smile.png" alt="logo" />
 
                 <AlertDialog className="">
@@ -164,7 +164,13 @@ function Detail() {
               <Link className="mt-8" to="partager">
                 <Button className=" w-[100px] lg:w-[200px] h-[48px] bg-white gap-2 text-black" variant="online">
                   <img className="h-8 mt-1" src="assets/share.png" alt="logo" />
-                  Partager cette page</Button>
+
+                  <div className="lg:block hidden">
+                    Partager cette page
+
+                  </div>
+
+                </Button>
               </Link>
             </div>
           </div>
@@ -172,7 +178,9 @@ function Detail() {
         </div>
 
 
-        <div className="text-black bg-white p-6 rounded-lg">
+
+
+        <div className="text-black bg-white p-6 mt-8 lg:mt-0 rounded-lg">
 
           <div className="flex gap-4 items-center">
             <div className="font-bold py-6 px-4">NOTE DES<br /> PATIENTS</div>
