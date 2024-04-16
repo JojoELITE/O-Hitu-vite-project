@@ -71,12 +71,12 @@ function Resultat() {
 
 
 
-      <div className="px-0 lg:px-28 py-0 lg:py-12 flex justify-between ">
+      <div className="px-0 lg:px-28 py-0 lg:py-12 col lg:flex justify-between ">
 
         <div>
 
           <div className="py-0 lg:py-10">
- 
+
             <div className="block lg:flex items-center bg-white w-[350px] lg:w-[900px] h-[300px] lg:h-[230px]  gap-20 ">
 
               <div>
@@ -145,7 +145,7 @@ function Resultat() {
                 <div>
                   <div className="flex lg:flex justify-between px-8 lg:px-0 mt-10 lg:mt-20 ">
 
-                    <div className="font-bold text-xl mt-6">CHUO</div>
+                    <div className="font-bold text-xl mt-6">CHUL</div>
 
                     <div className="flex gap-3 mt-6">
                       <h1 className="font-bold text-xl lg:text-xl">4,5</h1>
@@ -157,7 +157,7 @@ function Resultat() {
 
                   <div>
                     <h6 className="px-8 lg:px-0">
-                      Centre Hospitalier universitaire  <br /> d'owendo
+                      Centre Hospitalier universitaire  <br /> de Libreville
                     </h6>
                   </div>
 
@@ -240,37 +240,24 @@ function Resultat() {
           </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         </div>
 
 
 
 
 
-        <div className="lg:block hidden">
+        <div className="">
 
-          <div className="">
+          <div className="lg:block hidden">
             <Tableau />
           </div>
 
-          <img className="sm:py-10 w-[500px]" src="assets/bucket.png" alt="logo" />
+ 
+          <div className="mt-6 flex justify-center lg:block">
+            <img className="sm:py-10  w-[300px] lg:w-[500px]" src="assets/bucket.png" alt="logo" />
+
+          </div>
+
 
         </div>
 
