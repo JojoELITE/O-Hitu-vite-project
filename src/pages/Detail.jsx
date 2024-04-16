@@ -35,7 +35,9 @@ function Detail() {
 
           <div className="flex gap-3">
             <img className="h-6 mt-2 lg:block hidden" src="assets/gauche.png" alt="logo" />
-            <h1 className="text-2xl lg:text-4xl text-white ml-2"> CHUL : Centre hospitalier universitaire <br /> de Libreville</h1>
+            <h1 className="text-2xl lg:text-4xl text-white ml-2 lg:block hidden"> CHUL : Centre hospitalier universitaire <br /> de Libreville</h1>
+            <h1 className="text-2xl lg:text-4xl text-white ml-2 block lg:hidden"> CHUL : Centre hospitalier universitaire de Libreville</h1>
+
           </div>
 
           <div className="flex gap-3 mt-6 items-center py-4">
@@ -53,7 +55,7 @@ function Detail() {
             <h6 className=" text-white">www.chul.ga</h6>
           </div>
 
-          <div className="mt-6 px-8 lg:px-0 flex gap-10 lg:gap-4">
+          <div className="mt-6 flex gap-10 lg:gap-4">
             <div>
               <Button className=" w-[200px] lg:w-[200px] h-[48px] gap-2 bg-white text-black" variant="online">
                 <img className="h-8" src="assets/smile.png" alt="logo" />
@@ -176,6 +178,7 @@ function Detail() {
           </div>
 
         </div>
+
 
 
 
@@ -359,7 +362,11 @@ function Detail() {
       </div>
 
 
-      <Footer />
+      <div className="lg:block hidden">
+        <Footer />
+      </div>
+
+
 
     </div>
   )
