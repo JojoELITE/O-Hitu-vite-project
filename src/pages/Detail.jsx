@@ -55,7 +55,7 @@ function Detail() {
             <h6 className=" text-white">www.chul.ga</h6>
           </div>
 
-          <div className="mt-6 flex gap-10 lg:gap-4">
+          <div className="mt-6 flex gap-6 lg:gap-4">
             <div>
               <Button className=" w-[200px] lg:w-[200px] h-[48px] gap-2 bg-white text-black" variant="online">
                 <img className="h-8" src="assets/smile.png" alt="logo" />
@@ -164,7 +164,7 @@ function Detail() {
 
             <div className="">
               <Link className="mt-8" to="partager">
-                <Button className=" w-[100px] lg:w-[200px] h-[48px] bg-white gap-2 text-black" variant="online">
+                <Button className=" w-[70px] lg:w-[200px] h-[48px] bg-white gap-2 text-black" variant="online">
                   <img className="h-8 mt-1" src="assets/share.png" alt="logo" />
 
                   <div className="lg:block hidden">
@@ -183,81 +183,92 @@ function Detail() {
 
 
 
-        <div className="text-black bg-white p-6 mt-8 lg:mt-0 rounded-lg">
 
-          <div className="flex gap-4 items-center">
-            <div className="font-bold py-6 px-4">NOTE DES<br /> PATIENTS</div>
-            <div className="flex py-8 px-4 items-center">
-              <img className="h-6" src="assets/ph_star-fill.png" alt="logo" />
-              <img className="h-6" src="assets/ph_star-fill.png" alt="logo" />
-              <img className="h-6" src="assets/eb.png" alt="logo" />
-              <img className="h-6" src="assets/eb.png" alt="logo" />
-              <img className="h-6" src="assets/eb.png" alt="logo" />
+
+        <div className="">
+
+          <div className="text-black bg-white p-6 mt-8 lg:mt-0 rounded-lg">
+
+            <div className="flex gap-4 items-center">
+              <div className="font-bold py-6 px-4">NOTE DES<br /> PATIENTS</div>
+              <div className="flex py-8 px-4 items-center">
+                <img className="h-6" src="assets/ph_star-fill.png" alt="logo" />
+                <img className="h-6" src="assets/ph_star-fill.png" alt="logo" />
+                <img className="h-6" src="assets/eb.png" alt="logo" />
+                <img className="h-6" src="assets/eb.png" alt="logo" />
+                <img className="h-6" src="assets/eb.png" alt="logo" />
+              </div>
+
+              <div className="flex font-bold text-2xl">
+                <h2 className="py-7 ">2.81</h2>
+                <h2 className="py-7 text-sm">/5</h2>
+              </div>
+
+              <div>
+                <h6 className="text-[#322E2E] text-center py-4 mr-10">sur 232 <br /> avis</h6>
+              </div>
+
             </div>
 
-            <div className="flex font-bold text-2xl">
-              <h2 className="py-7 ">2.81</h2>
-              <h2 className="py-7 text-sm">/5</h2>
+
+
+            <div className="flex gap-4 border-y-2 border-[#C6C6C6] py-6 px-4 items-center">
+              <h2 className="font-bold">CONNEXIONS 4.0</h2>
+              <img className="h-5" src="assets/i_Icon.png" alt="logo" />
+
+              <div className="ml-16">
+                <span className="rounded-md bg-[#C8DAE6] p-3 text-white font-bold text-xl">A</span>
+                <span className="rounded-md bg-black p-3 text-white font-bold ml-2 text-xl">B</span>
+                <span className="rounded-md bg-[#C8DAE6] p-3 text-white font-bold ml-2 text-xl">C</span>
+                <span className="rounded-md bg-[#C8DAE6] p-3 text-white font-bold ml-2 text-xl">D</span>
+
+              </div>
+
             </div>
 
-            <div>
-              <h6 className="text-[#322E2E] text-center py-4 mr-10">sur 232 <br /> avis</h6>
+
+
+            <div className="flex gap-4 py-6 px-4 border-b-2 border-[#C6C6C6] items-center">
+              <h2 className="font-bold ">NOTE GLOBALE </h2>
+              <img className="h-5" src="assets/i_Icon.png" alt="logo" />
+
+              <div className="flex font-bold text-2xl ml-24">
+                <h2 className="">2.75</h2>
+                <h2 className=" text-sm">/5</h2>
+              </div>
+
+            </div>
+
+
+            <div className="flex gap-4 px-4 py-6 items-center">
+              <h2 className="font-bold">CLASSEMENT REGIONAL </h2>
+              <img className="h-5" src="assets/i_Icon.png" alt="logo" />
+
+              <div className="flex font-bold text-2xl ml-6">
+                <h2 className="">30</h2>
+                <h2 className="text-sm">/100</h2>
+              </div>
+
             </div>
 
           </div>
-
-
-
-          <div className="flex gap-4 border-y-2 border-[#C6C6C6] py-6 px-4 items-center">
-            <h2 className="font-bold">CONNEXIONS 4.0</h2>
-            <img className="h-5" src="assets/i_Icon.png" alt="logo" />
-
-            <div className="ml-16">
-              <span className="rounded-md bg-[#C8DAE6] p-3 text-white font-bold text-xl">A</span>
-              <span className="rounded-md bg-black p-3 text-white font-bold ml-2 text-xl">B</span>
-              <span className="rounded-md bg-[#C8DAE6] p-3 text-white font-bold ml-2 text-xl">C</span>
-              <span className="rounded-md bg-[#C8DAE6] p-3 text-white font-bold ml-2 text-xl">D</span>
-
-            </div>
-
-          </div>
-
-
-
-          <div className="flex gap-4 py-6 px-4 border-b-2 border-[#C6C6C6] items-center">
-            <h2 className="font-bold ">NOTE GLOBALE </h2>
-            <img className="h-5" src="assets/i_Icon.png" alt="logo" />
-
-            <div className="flex font-bold text-2xl ml-24">
-              <h2 className="">2.75</h2>
-              <h2 className=" text-sm">/5</h2>
-            </div>
-
-          </div>
-
-
-          <div className="flex gap-4 px-4 py-6 items-center">
-            <h2 className="font-bold">CLASSEMENT REGIONAL </h2>
-            <img className="h-5" src="assets/i_Icon.png" alt="logo" />
-
-            <div className="flex font-bold text-2xl ml-6">
-              <h2 className="">30</h2>
-              <h2 className="text-sm">/100</h2>
-            </div>
-
-          </div>
-
         </div>
 
       </div>
 
 
-      <div className="p-12 px-28 ">
+
+
+
+
+
+
+      <div className="p-8 lg:p-12 px-8 lg:px-28 ">
 
         <div className="bg-white rounded-">
 
-          <Tabs defaultValue="description" className="w-full py-10 px-10">
-            <TabsList className="gap-32 bg-white">
+          <Tabs defaultValue="description" className="w-[px] lg:w-full py-10 px-4 lg:px-10">
+            <TabsList className="gap-6 lg:gap-32 bg-white">
               <TabsTrigger className="text-xl hover:font-bold text-black border-b-8 border-black" value="description">Description</TabsTrigger>
               <TabsTrigger className="text-xl hover:font-bold text-black hover:border-b-8 border-black" value="localisation">Localisation</TabsTrigger>
               <TabsTrigger className="text-xl hover:font-bold text-black hover:border-b-8 border-black" value="avis">Avis</TabsTrigger>
@@ -268,7 +279,7 @@ function Detail() {
 
               <Accordion type="single" collapsible>
                 <AccordionItem value="item-1">
-                  <h1 className="text-4xl font-bold py-8">Description</h1>
+                  <h1 className="text-2xl lg:text-4xl font-bold py-8 ">Description</h1>
                   <AccordionTrigger>Quelle est l'activité du CHUL ?</AccordionTrigger>
                   <AccordionContent>
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br />
@@ -297,7 +308,7 @@ function Detail() {
 
               <Accordion type="single" collapsible>
                 <AccordionItem value="item-1">
-                  <h1 className="text-4xl font-bold py-8">Localisation</h1>
+                  <h1 className="text-2xl lg:text-4xl font-bold py-8">Localisation</h1>
                   <AccordionTrigger>Quelle est l'activité du CHUL ?</AccordionTrigger>
                   <AccordionContent>
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br />
@@ -326,7 +337,7 @@ function Detail() {
 
               <Accordion type="single" collapsible>
                 <AccordionItem value="item-1">
-                  <h1 className="text-4xl font-bold py-8">Avis</h1>
+                  <h1 className="text-2xl lg:text-4xl font-bold py-8">Avis</h1>
                   <AccordionTrigger>Quelle est l'activité du CHUL ?</AccordionTrigger>
                   <AccordionContent>
                     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation <br />
@@ -354,7 +365,7 @@ function Detail() {
 
 
           <div>
-            <h1 className="text-4xl font-bold py-8 px-10">Localisation</h1>
+            <h1 className="text-2xl lg:text-4xl font-bold py-8 px-4 lg:px-10">Localisation</h1>
           </div>
 
         </div>
