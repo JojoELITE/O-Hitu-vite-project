@@ -215,10 +215,10 @@ function Detail() {
               <img className="h-5" src="assets/i_Icon.png" alt="logo" />
 
               <div className="ml-4 lg:ml-16">
-                <span className="rounded-md bg-[#C8DAE6] p-3 text-white font-bold text-xl">A</span>
-                <span className="rounded-md bg-black p-3 text-white font-bold ml-2 text-xl">B</span>
-                <span className="rounded-md bg-[#C8DAE6] p-3 text-white font-bold ml-2 text-xl">C</span>
-                <span className="rounded-md bg-[#C8DAE6] p-3 text-white font-bold ml-2 text-xl">D</span>
+                <span className="rounded-md bg-[#C8DAE6] p-3 text-white font-bold text- lg:text-xl">A</span>
+                <span className="rounded-md bg-black p-3 text-white font-bold ml-2 text- lg:text-xl">B</span>
+                <span className="rounded-md bg-[#C8DAE6] p-3 text-white font-bold ml-2 text- lg:text-xl">C</span>
+                <span className="rounded-md bg-[#C8DAE6] p-3 text-white font-bold ml-2 text- lg:text-xl">D</span>
 
               </div>
 
@@ -230,7 +230,7 @@ function Detail() {
               <h2 className="font-bold text-sm lg:text-lg">NOTE GLOBALE </h2>
               <img className="h-5" src="assets/i_Icon.png" alt="logo" />
 
-              <div className="flex font-bold text-2xl ml-24">
+              <div className="flex font-bold text- lg:text-2xl ml-24">
                 <h2 className="">2.75</h2>
                 <h2 className=" text-sm">/5</h2>
               </div>
@@ -242,7 +242,7 @@ function Detail() {
               <h2 className="font-bold text-sm lg:text-lg">CLASSEMENT REGIONAL </h2>
               <img className="h-5" src="assets/i_Icon.png" alt="logo" />
 
-              <div className="flex font-bold text-2xl ml-6">
+              <div className="flex font-bold text- lg:text-2xl ml-10 lg:ml-6">
                 <h2 className="">30</h2>
                 <h2 className="text-sm">/100</h2>
               </div>
