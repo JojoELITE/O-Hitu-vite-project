@@ -203,7 +203,7 @@ function Detail() {
               </div>
 
               <div>
-                <h6 className="text-[#322E2E] text-center mr- lg:mr-10 text-[12px] lg:text-lg block lg:hidden">sur 232 avis</h6>
+                <h6 className="text-[#322E2E] text-center text-[12px] block lg:hidden">sur 232 avis</h6>
                 <h6 className="text-[#322E2E] text-center mr-10 text-lg lg:block hidden">sur 232 <br /> avis</h6>
 
               </div>
@@ -216,7 +216,7 @@ function Detail() {
               <h2 className="font-bold text-sm lg:text-lg">CONNEXIONS 4.0</h2>
               <img className="h-5" src="assets/i_Icon.png" alt="logo" />
 
-              <div className="ml-4 lg:ml-16">
+              <div className="ml-6 lg:ml-16">
                 <span className="rounded-md bg-[#C8DAE6] p-3 text-white font-bold text- lg:text-xl">A</span>
                 <span className="rounded-md bg-black p-3 text-white font-bold ml-2 text- lg:text-xl">B</span>
                 <span className="rounded-md bg-[#C8DAE6] p-3 text-white font-bold ml-2 text- lg:text-xl">C</span>
